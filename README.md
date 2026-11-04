@@ -19,6 +19,11 @@ Two halves:
 Every colour, typeface and footer comes from one `brand.json`. Nothing is hardcoded to any
 company, so pointing it at a different brand file re-skins every format.
 
+**Example output**, rendered from [`examples/bar-card.example.json`](examples/bar-card.example.json)
+with the stock brand (swap `brand.json` and the colours, type and footer change):
+
+<img src="assets/example-card.png" alt="Example card: a bar chart card with a large 62.1% stat and a green and gray split bar, rendered by the pipeline from a JSON spec" width="420">
+
 ## Install
 
 **Paste this to your agent.** It is self-contained and stops at the first step that does not actually work.
