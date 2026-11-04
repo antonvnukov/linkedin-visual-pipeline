@@ -1,0 +1,61 @@
+{
+  "format": "carousel",
+  "layout": "carousel",
+  "size": "portrait",
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "Search Console · SEO · Google Update",
+      "headline": "Google just ranked your LinkedIn post",
+      "subhead": "Platform properties now tracked in Search Console this month"
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Headline First",
+      "headline": "First line is your headline now",
+      "body": "Put your target keyword *front*. That shapes the title Google indexes. Skip the keyword work and posts sit unranked while competitors outrank you in the same results."
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Multiply Reach",
+      "headline": "Same text, four platforms",
+      "body": "Repost across LinkedIn, X, Threads, and Facebook. Near-zero extra work for four rankable properties instead of one. LinkedIn domain authority: 99. Company blogs don't get near that.",
+      "chips": [
+        "LinkedIn",
+        "X",
+        "Threads",
+        "Facebook"
+      ]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Transcripts > Hashtags",
+      "headline": "Video descriptions stop being hashtag dumps",
+      "body": "*Full transcripts* instead. That's what search engines and AI models actually parse."
+    },
+    {
+      "type": "quote",
+      "theme": "dark",
+      "quote": "None of this replaces your website. That's still where trust gets built and deals close.",
+      "subhead": "The real value is what that visibility feeds next.",
+      "flow": [
+        "Social discovery",
+        "Search visibility",
+        "Website trust",
+        "Warmer outbound",
+        "Pipeline"
+      ]
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "headline": "Your first move",
+      "body": "Pick one platform you post daily. Rewrite the first line of your next post as a headline built around the keyword you'd want it ranked for.",
+      "button": "+ Follow"
+    }
+  ]
+}

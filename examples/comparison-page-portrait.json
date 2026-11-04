@@ -1,0 +1,41 @@
+{
+ "format": "card-before-after",
+ "theme": "light",
+ "height": 1350,
+ "eyebrow": "COMPARISON PAGE · BLOG VS LANDING PAGE",
+ "before": {
+  "pill": "BLOG POST",
+  "hero": "Reads as research",
+  "steps": [
+   "Written once, never touched",
+   "Table after two paragraphs of setup",
+   "Softened keyword",
+   "Sales improvises with a slide"
+  ],
+  "caption": "The AI answer is built from someone else's page"
+ },
+ "after": {
+  "pill": "LANDING PAGE",
+  "hero": "Reads as a *buying decision*",
+  "steps": [
+   {
+    "label": "Table above the fold",
+    "tag": "1"
+   },
+   {
+    "label": "Literal keyword: Brand vs Competitor",
+    "tag": "2"
+   },
+   {
+    "label": "Write it editorially",
+    "tag": "3"
+   },
+   {
+    "label": "Let a third party name competitors",
+    "tag": "4"
+   }
+  ],
+  "caption": "A page a rep can send mid-deal"
+ },
+ "closing": "Same facts, wrong wrapper."
+}

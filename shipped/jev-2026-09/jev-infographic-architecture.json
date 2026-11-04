@@ -1,0 +1,245 @@
+{
+  "$comment": "Tall animated architecture of the Jev GTM Decision Layer Spec (Notion 3e255c40-e4e7-81bd-9c00-da722e2dacca): same four decisions, options verbatim, routing bands = TypeSafe's worked example (docs lines 1269-1286). Rail figures are Anton's own outbound lists (first-party, as printed in the Spec). Nothing here claims a deployed system.",
+  "format": "card-infographic",
+  "layout": "flow",
+  "number_from": 0,
+  "height": 2160,
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 18500,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{jev} / gtm decision layer · architecture",
+  "meta_right": "[ save this ]",
+  "title": "The typed decision *layer.*",
+  "sub": "One lead, from list to reply. Where code decides, where a model decides, where a person decides.",
+  "legend": {
+    "typed": "a typed-decision model picks from closed options",
+    "code": "computed or enforced in code",
+    "human": "a person works the queue",
+    "llm": "words get written"
+  },
+  "rail": [
+    {
+      "head": "Why it exists",
+      "lines": [
+        "5 of my outbound lists, 13,403 rows.",
+        "2,976 titles never matched a rule.",
+        "They were scored low. Nobody saw it."
+      ]
+    },
+    {
+      "head": "Never send the model",
+      "lines": [
+        "Arithmetic.",
+        "Date comparisons.",
+        "Anything that must write prose."
+      ]
+    },
+    {
+      "head": "Select, never generate",
+      "lines": [
+        "Build the candidates in code.",
+        "The model picks from your list.",
+        "It can still pick the wrong one. That is what UNRESOLVED is for."
+      ]
+    },
+    {
+      "head": "Calibrate on labels you own",
+      "lines": [
+        "CRM dispositions.",
+        "Replies you already tagged.",
+        "Your old scorer's own calls."
+      ]
+    }
+  ],
+  "stages": [
+    {
+      "title": "A lead lands",
+      "note": "List import, CRM record or inbound form.",
+      "cards": [
+        {
+          "kind": "code",
+          "title": "Compute before you ask",
+          "lines": [
+            "Size band, signals as words",
+            "Days since last touch: code, never the model"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hard-DQ, as policy",
+      "note": "Decided once, enforced every time.",
+      "cards": [
+        {
+          "kind": "code",
+          "title": "Disqualify in code",
+          "lines": [
+            "Agencies, below your size floor, existing customers",
+            "A policy, never a probability"
+          ]
+        }
+      ],
+      "gate": {
+        "q": "Passes your policy?",
+        "yes": "into the decision call",
+        "no": "excluded and logged, never asked"
+      }
+    },
+    {
+      "title": "Three decisions, one call",
+      "note": "Same lead state, one round trip, three typed answers.",
+      "cards": [
+        {
+          "kind": "typed",
+          "title": "Worth paying to enrich?",
+          "type": "noul",
+          "lines": [
+            "A wrong call costs one fee"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Which tier?",
+          "type": "choice",
+          "options": [
+            "tier_1_hot",
+            "tier_2_warm",
+            "tier_3_cold",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "Never force an unclear lead"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Which sequence?",
+          "type": "choice",
+          "options": [
+            "demo_request",
+            "nurture",
+            "re_engage",
+            "do_not_send"
+          ],
+          "abstain": "do_not_send",
+          "lines": [
+            "Holds every UNRESOLVED lead"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Route on confidence",
+      "note": "choice and score carry a confidence. noul does not.",
+      "cards": [
+        {
+          "kind": "human",
+          "title": "UNRESOLVED and low confidence",
+          "lines": [
+            "Queued for a person",
+            "Never defaulted to a low score"
+          ]
+        },
+        {
+          "kind": "code",
+          "title": "Thresholds live in config",
+          "lines": [
+            "One named constant per question",
+            "Re-derived when a question changes"
+          ]
+        }
+      ],
+      "bands": {
+        "markers": [
+          0.5,
+          0.9
+        ],
+        "labels": [
+          "ESCALATE",
+          "REVIEW",
+          "ACT"
+        ],
+        "caption": "TypeSafe's worked example, not a rule. Destructive actions only above 0.9."
+      }
+    },
+    {
+      "title": "Enrol and write",
+      "note": "The decision is made. Now the words.",
+      "cards": [
+        {
+          "kind": "code",
+          "title": "The sequencer sends",
+          "lines": [
+            "Enrolment, caps, send windows"
+          ]
+        },
+        {
+          "kind": "llm",
+          "title": "The first line gets written",
+          "lines": [
+            "Generation, downstream of the decision",
+            "Never inside the typed call"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "A reply comes back",
+      "note": "Reply text is its own state, so it is its own call.",
+      "cards": [
+        {
+          "kind": "typed",
+          "title": "What kind of reply?",
+          "type": "choice",
+          "options": [
+            "interested",
+            "not_interested",
+            "out_of_office",
+            "objection",
+            "needs_human"
+          ],
+          "abstain": "needs_human",
+          "lines": [
+            "Batch a whole inbox pull"
+          ]
+        },
+        {
+          "kind": "llm",
+          "title": "Answer the objection",
+          "lines": [
+            "Written after it was tagged objection"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Learn from outcomes",
+      "note": "The layer is only as good as its calibration.",
+      "cards": [
+        {
+          "kind": "code",
+          "title": "Verdict + outcome, logged",
+          "lines": [
+            "Confusion matrix per question",
+            "Threshold by error rate AND review share"
+          ]
+        },
+        {
+          "kind": "code",
+          "title": "Shadow run first",
+          "lines": [
+            "Old scorer and the model side by side",
+            "Alert only when they disagree",
+            "Cut over one decision at a time"
+          ]
+        }
+      ]
+    }
+  ],
+  "cta": "Comment JEV for the full spec",
+  "source": "limits: docs.typesafe.ai jev-1.13 · architecture: Anton Vnukov"
+}

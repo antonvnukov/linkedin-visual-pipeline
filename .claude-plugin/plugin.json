@@ -1,0 +1,22 @@
+{
+  "name": "linkedin-visuals",
+  "version": "1.2.0",
+  "description": "Brief to ship-ready social visual on your own brand: PNG cards, PDF carousels, looping MP4 + GIF via Remotion. Deterministic QA gate, claims ledger, and a blind checksummed taste loop. Every colour, font and footer comes from one brand.json.",
+  "author": {
+    "name": "Anton Vnukov"
+  },
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "social",
+    "design",
+    "carousel",
+    "remotion",
+    "motion",
+    "animation",
+    "brand",
+    "visuals"
+  ],
+  "homepage": "https://github.com/antonvnukov/linkedin-visual-pipeline#readme",
+  "repository": "https://github.com/antonvnukov/linkedin-visual-pipeline"
+}

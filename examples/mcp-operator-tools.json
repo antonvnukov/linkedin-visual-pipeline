@@ -1,0 +1,33 @@
+{
+  "format": "card-flow",
+  "theme": "dark",
+  "motion": false,
+  "window_title": "MCP stack",
+  "pill": "Operator mode",
+  "eyebrow": "GTM · MCP · AUTOMATION",
+  "title": "MCPs turn Claude into a *GTM operator*",
+  "nodes": [
+    {
+      "label": "LinkedIn Inbox",
+      "sub": "HeyReach MCP",
+      "insight": "Triages, drafts, sends the follow-up. You approve."
+    },
+    {
+      "label": "Workflows",
+      "sub": "n8n MCP",
+      "insight": "Plain English to working JSON. 4-6 hrs becomes 5 min."
+    },
+    {
+      "label": "CRM Answers",
+      "sub": "HubSpot MCP",
+      "insight": "Ask in plain language. Totals, gaps, missing contacts."
+    },
+    {
+      "label": "Claude = Operator",
+      "sub": "Not a copy machine",
+      "insight": "It acts inside your stack, not about it",
+      "accent": true
+    }
+  ],
+  "caption": "Stop pasting AI output into tools. *Give it the keys.*"
+}

@@ -1,0 +1,224 @@
+{
+  "$comment": "Mega cheat-sheet poster (lead magnet: feed version is deliberately small, full-res PNG/PDF sent on 'comment SEO'). Three SEO jobs as typed decisions vs code vs human. Link criteria from ~/.claude/skills/che-linkbuilding (concepts only, its numeric ranges are unsourced so none are printed). Jev constraints from TypeSafe docs jev-1.13 (not a calculator, dates read as text). No figures on the card.",
+  "format": "card-infographic",
+  "layout": "mega",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 12500,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{seo} / decisions, typed",
+  "meta_right": "[ full size: comment SEO ]",
+  "title": "SEO decisions, *typed.*",
+  "sub": "Links, keywords, content audits. What a model should decide, what code should count, what a person should see.",
+  "legend": {
+    "typed": "ask a typed-decision model. Closed options, abstain in green",
+    "code": "compute first. Numbers, dates, counts never go to the model",
+    "human": "the abstain queue. A person works it"
+  },
+  "sections": [
+    {
+      "label": "BACKLINKS",
+      "question": "Take this link, or walk away?",
+      "cards": [
+        {
+          "kind": "typed",
+          "title": "Is the linking page about our topic?",
+          "type": "choice",
+          "options": [
+            "same_topic",
+            "adjacent",
+            "unrelated",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "State = page title, body excerpt, our topic list",
+            "Relevance beats authority on a new site"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Where does the link sit?",
+          "type": "choice",
+          "options": [
+            "in_body",
+            "resource_list",
+            "author_bio",
+            "footer_sidebar",
+            "sponsored",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "A link inside the argument is worth more than one in the bio"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Does the site look like a link seller?",
+          "type": "choice",
+          "options": [
+            "clean",
+            "pbn_footprint",
+            "link_farm",
+            "write_for_us_mill",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "Feed it the outbound link list and the homepage text"
+          ]
+        },
+        {
+          "kind": "code",
+          "title": "Authority, traffic, velocity, anchor mix",
+          "lines": [
+            "Domain rank and real traffic from your API",
+            "New linking domains per month",
+            "Exact-match anchor share across the profile"
+          ]
+        },
+        {
+          "kind": "human",
+          "title": "Paid, borderline, or UNRESOLVED",
+          "lines": [
+            "Money and reputation risk. A person signs off"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "KEYWORDS",
+      "question": "New page, or an existing one?",
+      "cards": [
+        {
+          "kind": "typed",
+          "title": "What does the searcher want?",
+          "type": "choice",
+          "options": [
+            "informational",
+            "commercial",
+            "transactional",
+            "navigational",
+            "mixed"
+          ],
+          "lines": [
+            "State = keyword plus the top results' titles",
+            "mixed is a real answer, not a failure"
+          ]
+        },
+        {
+          "kind": "code",
+          "title": "Do two keywords share a SERP?",
+          "lines": [
+            "Count shared URLs in the top ten",
+            "Overlap is arithmetic. Compute it, then ask"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Which page owns it?",
+          "type": "choice",
+          "options": [
+            "/pricing",
+            "/guide-x",
+            "/vs-competitor",
+            "new_page",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "Candidates from Search Console, built in code",
+            "The model picks, never invents a URL"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "What page type does it need?",
+          "type": "choice",
+          "options": [
+            "guide",
+            "comparison",
+            "product",
+            "tool",
+            "support"
+          ],
+          "lines": [
+            "Match the format that already ranks"
+          ]
+        },
+        {
+          "kind": "human",
+          "title": "new_page or UNRESOLVED",
+          "lines": [
+            "A new URL is a commitment. A person decides"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "CONTENT AUDIT",
+      "question": "Leave it, fix it, merge it, kill it?",
+      "cards": [
+        {
+          "kind": "code",
+          "title": "Traffic trend and page age",
+          "lines": [
+            "Clicks now vs a year ago",
+            "Last-updated date. The model reads dates as text"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Is the page still accurate?",
+          "type": "noul",
+          "lines": [
+            "State = page text plus your current facts sheet",
+            "No confidence field. Treat it as a lean"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "What should happen to it?",
+          "type": "choice",
+          "options": [
+            "leave",
+            "refresh",
+            "consolidate",
+            "redirect",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "Hand it the numbers you computed, as words"
+          ]
+        },
+        {
+          "kind": "typed",
+          "title": "Merge into which page?",
+          "type": "choice",
+          "options": [
+            "/guide-x",
+            "/guide-y",
+            "none_fits",
+            "UNRESOLVED"
+          ],
+          "abstain": "UNRESOLVED",
+          "lines": [
+            "Candidates from your own internal-link graph"
+          ]
+        },
+        {
+          "kind": "human",
+          "title": "Every redirect and UNRESOLVED",
+          "lines": [
+            "A redirect is hard to undo. A person approves"
+          ]
+        }
+      ]
+    }
+  ],
+  "source": "model limits: docs.typesafe.ai jev-1.13 · method: Anton Vnukov"
+}

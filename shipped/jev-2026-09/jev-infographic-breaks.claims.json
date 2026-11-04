@@ -1,0 +1,94 @@
+{
+  "artifact": "jev-infographic-breaks",
+  "visibleSources": true,
+  "publicationBoundary": "Every figure and every failure-mode fix is TypeSafe's own published documentation for jev-1.13, quoted, not measured by Anton. The 0.5 and 0.9 thresholds are TypeSafe's worked EXAMPLE and the card must say so (scale caption). 'Output not billed' is docs line 12921 ('Charged per input token. Output tokens are free.'). Supports 'this is what the vendor documents'; never 'this is how Jev performs on your data'.",
+  "sources": {
+    "typesafe-docs": "TypeSafe's published docs (docs.typesafe.ai, jev-1.13), mirrored verbatim at (private notes) Vendor-published, not independently verified."
+  },
+  "claims": [
+    {
+      "id": "64k",
+      "classification": "secondary",
+      "display": [
+        "64K"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "64K": 1
+      },
+      "note": "Docs line 12920, 'Current models' table: '64k tokens per request'."
+    },
+    {
+      "id": "32k",
+      "classification": "secondary",
+      "display": [
+        "32K"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "32K": 1
+      },
+      "note": "Docs line 12920: '32k tokens for state plus the longest question'."
+    },
+    {
+      "id": "1-200",
+      "classification": "secondary",
+      "display": [
+        "1,200"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "1,200": 1
+      },
+      "note": "Docs line 12917, 'Rate limits': '1,200 requests per minute'."
+    },
+    {
+      "id": "0-042",
+      "classification": "secondary",
+      "display": [
+        "$0.042"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "$0.042": 1
+      },
+      "note": "Docs line 12916, 'Price (per Btok / per Mtok)': '$42 / $0.042'; line 12921: charged per input token."
+    },
+    {
+      "id": "1m",
+      "classification": "secondary",
+      "display": [
+        "1M"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "1M": 1
+      },
+      "note": "The 'per Mtok' unit of the $0.042 price, docs lines 12916 and 12921 (an Mtok is a million tokens)."
+    },
+    {
+      "id": "255",
+      "classification": "secondary",
+      "display": [
+        "255"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "255": 1
+      },
+      "note": "Docs line 253: 'You can have a maximum of 255 options per Choice.' (Line 3971 adds that a Choice works reliably up to roughly 240 options; the card states the API maximum.)"
+    },
+    {
+      "id": "10",
+      "classification": "secondary",
+      "display": [
+        "10"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "10": 1
+      },
+      "note": "Docs line 291: 'A Score should have at least two levels; the API accepts up to 10.' Rendered as '2 to 10 levels'."
+    }
+  ]
+}

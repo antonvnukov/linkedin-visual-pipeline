@@ -1,0 +1,34 @@
+{
+  "format": "card-flow",
+  "theme": "dark",
+  "motion": true,
+  "motion_ms": 5200,
+  "window_title": "Prospecting stack",
+  "pill": "Order of operations",
+  "eyebrow": "PROSPECTING · BUYER TIMING",
+  "title": "The stack that *predicts timing*",
+  "nodes": [
+    {
+      "label": "Intent Signals",
+      "sub": "Trigify · PredictLeads · Common Room",
+      "insight": "Catch the signal before they know they're buying"
+    },
+    {
+      "label": "Validate Fit",
+      "sub": "Apollo · TheirStack · BuiltWith",
+      "insight": "Cuts the list before you pay to enrich it"
+    },
+    {
+      "label": "Enrich Contacts",
+      "sub": "FullEnrich waterfall via Clay",
+      "insight": "Credits burn only on names that already qualified"
+    },
+    {
+      "label": "One Per Layer",
+      "sub": "Trigify + Apollo + FullEnrich",
+      "insight": "Sequencing beats collecting more sources",
+      "accent": true
+    }
+  ],
+  "caption": "You don't need more data sources. You need *one per layer, in the right order.*"
+}

@@ -1,0 +1,16 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": false,
+  "slides": [
+    {
+      "type": "bignum",
+      "theme": "dark",
+      "kicker": "CONTENT AUDITS  ·  AGENCY MEASURED",
+      "headline": "pages judged in *45.1 seconds*",
+      "bignum": "586",
+      "body": "for $0.21 total, agency measured. Call it $0.0004 per page level judgment. Sampling was baked into the audit because judgment was expensive. A 50 page sample now looks like the corner someone cut."
+    }
+  ]
+}

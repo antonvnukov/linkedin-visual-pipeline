@@ -1,0 +1,22 @@
+{
+  "name": "linkedin-visuals-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion renderer for cards built by the linkedin-visuals pipeline",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Card",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.489",
+    "gsap": "^3.15.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.489"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

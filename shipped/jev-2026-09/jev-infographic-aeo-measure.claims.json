@@ -1,0 +1,19 @@
+{
+  "artifact": "jev-infographic-aeo-measure",
+  "visibleSources": true,
+  "publicationBoundary": "Everything on the card about the free reports is official vendor documentation (Google Search Central / Search Console Help, blogs.bing.com, Microsoft Clarity docs), mirrored in (private notes) The 10.8K citation figure is ONE creator's report about ONE six-week-old site (n=1, creator claim) and the card must label it as one site, never as a rate, a benchmark or a general finding about AI citations. Supports 'citations measure reach, not pipeline'; never 'AI citations do not convert'.",
+  "sources": {
+    "aeo-brain": "(private notes) — claim tiers recorded per line; report behaviour = official documentation, retrieved 2026-09-22.",
+    "creator-n1": "@vincenzo_naked on X, 2026-09-21: his own six-week-old site logged 10.8K citations and zero sales. Single creator claim, not independently verified."
+  },
+  "claims": [
+    {
+      "id": "10-8k",
+      "classification": "secondary",
+      "display": ["10.8K"],
+      "source": "creator-n1",
+      "allowedProminentOccurrences": {"10.8K": 1},
+      "note": "One site, one creator's own report. Card says 'One site logged 10.8K citations and zero sales' and the source line says n=1."
+    }
+  ]
+}

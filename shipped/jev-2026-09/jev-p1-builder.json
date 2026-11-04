@@ -1,0 +1,19 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": false,
+  "slides": [
+    {
+      "type": "quote",
+      "theme": "dark",
+      "quote": "I had written a spec for a decision interface, then installed a human as the endpoint.",
+      "subhead": "2,048 of my own session files. 1,331 times my agents rendered a numbered list and stopped. 144 times I answered with nothing but a digit.",
+      "flow": [
+        "Count the decisions",
+        "Count the labels",
+        "Then go shopping"
+      ]
+    }
+  ]
+}

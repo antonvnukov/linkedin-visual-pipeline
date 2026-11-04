@@ -1,0 +1,106 @@
+{
+  "artifact": "jev-carousel-leadscore",
+  "visibleSources": true,
+  "publicationBoundary": "Every figure is first-party, measured on Anton's OWN outbound lists. The deck supports 'my regex ladder failed to classify 22.2% of titles and 34.9% of companies across 13,403 of my own rows' and never an industry rate, never a claim about any vendor's accuracy, and never a benchmark. The point of the deck is that the rate is unmeasured in most pipelines, not that this particular rate is typical.",
+  "sources": {
+    "first-party-csv": "Anton's own 5 scored outbound lists, 13,403 rows total, read directly from the scored CSVs on 2026-09-21. Not a client benchmark, not an industry study, and not generalisable to anyone else's list."
+  },
+  "claims": [
+    {
+      "id": "09",
+      "classification": "primary",
+      "display": [
+        "09"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "09": 2
+      },
+      "note": "Part of the measurement date 2026-09-21, not a quantity."
+    },
+    {
+      "id": "13-403",
+      "classification": "primary",
+      "display": [
+        "13,403"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "13,403": 2
+      },
+      "note": "Denominator. Total rows across the 5 lists."
+    },
+    {
+      "id": "2026",
+      "classification": "primary",
+      "display": [
+        "2026"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "2026": 2
+      },
+      "note": "Part of the measurement date 2026-09-21 in the source line, not a quantity."
+    },
+    {
+      "id": "21",
+      "classification": "primary",
+      "display": [
+        "21"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "21": 2
+      },
+      "note": "Part of the measurement date 2026-09-21, not a quantity."
+    },
+    {
+      "id": "22",
+      "classification": "primary",
+      "display": [
+        "22%"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "22%": 2
+      },
+      "note": "Rounded form of the same fall-through rate, used in the hook so the first slide reads at feed size."
+    },
+    {
+      "id": "34-9",
+      "classification": "primary",
+      "display": [
+        "34.9%"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "34.9%": 2
+      },
+      "note": "Company fall-through rate. 4,672 of 13,403. Stated as the worse of the two."
+    },
+    {
+      "id": "672",
+      "classification": "primary",
+      "display": [
+        "672"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "672": 2
+      },
+      "note": "Tokenizer fragment of 4,672 in the same sentence. Same claim, not a second finding."
+    },
+    {
+      "id": "976",
+      "classification": "primary",
+      "display": [
+        "976"
+      ],
+      "source": "first-party-csv",
+      "allowedProminentOccurrences": {
+        "976": 2
+      },
+      "note": "Tokenizer fragment of 2,976 in the same slide. Same claim, not a second finding."
+    }
+  ]
+}

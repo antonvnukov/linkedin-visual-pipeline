@@ -1,0 +1,22 @@
+{
+  "artifact": "amec-evidence-domains",
+  "visibleSources": true,
+  "publicationBoundary": "AMEC's own GEO Principles, as reported by Greg Jarboe in Search Engine Land. The card supports 'AMEC draws an output-vs-outcome line and says no single tool proves the connection' and never a stronger claim: no 'AMEC proved', no 'citations are worthless', no implication that AMEC measured pipeline impact. The three evidence-domain names are abbreviated for card space; the full wording is in the source.",
+  "sources": {
+    "amec-geo-principles": "AMEC GEO Principles and the companion Practitioner's Guide to GEO Measurement, released May 20 with FleishmanHillard, Ketchum, Hotwire Global, Converseon, Big Valley Marketing and PR Agency One. Principle 5 reads: 'GEO measurement should distinguish visibility from outcomes and connect AI discovery to awareness, trust, behavior, and impact.' Reported in Greg Jarboe, 'What six perspectives reveal about demand generation in AI search', Search Engine Land, 2026-08-07: https://searchengineland.com/perspectives-demand-generation-ai-search-484450"
+  },
+  "claims": [
+    {
+      "id": "amec-geo-principles-may-20",
+      "classification": "secondary",
+      "display": [
+        "20"
+      ],
+      "source": "amec-geo-principles",
+      "allowedProminentOccurrences": {
+        "20": 1
+      },
+      "note": "Appears in: source line. Release date of the GEO Principles, verified against the Search Engine Land report on 2026-08-13. Secondary because the date comes from Jarboe's reporting rather than from AMEC's own publication page, which was not fetched."
+    }
+  ]
+}

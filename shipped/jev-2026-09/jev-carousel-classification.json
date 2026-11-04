@@ -1,0 +1,88 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "AI IN THE PIPELINE",
+      "headline": "Classification is *not writing*",
+      "subhead": "Routing, triage, relevance, scoring, qualification. Every one has a closed answer set, and teams pay generation prices for all of them because a chat model was the only tool on the shelf."
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "THE SPLIT NOBODY DRAWS",
+      "headline": "One has a closed answer set. *One does not.*",
+      "body": "Does this message convey urgency has a bounded answer. Analyse this and determine the best course of action does not, and should never be asked the same way.",
+      "chips": [
+        "Route",
+        "Triage",
+        "Score",
+        "Qualify",
+        "Check relevance",
+        "Then write"
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "dark",
+      "kicker": "FOUR RULES THAT OUTLIVE ANY VENDOR",
+      "headline": "What to do *instead*",
+      "items": [
+        "Ask what a knowledgeable person answers in one second",
+        "Select, never generate. Build the candidates in code",
+        "Threshold on confidence, not on the answer",
+        "Batch every question that shares the same state"
+      ]
+    },
+    {
+      "type": "bignum",
+      "theme": "light",
+      "kicker": "VENDOR MEASURED",
+      "headline": "Batching *13 questions* into one call",
+      "bignum": "11.5x",
+      "body": "cheaper, and 9.6x faster than asking them separately, with identical answers. TypeSafe's own figure, not an independent test."
+    },
+    {
+      "type": "versus",
+      "theme": "dark",
+      "kicker": "WHAT MOVES, WHAT STAYS",
+      "headline": "This is a *de-scoping*, not a replacement",
+      "left": {
+        "title": "Stays on a writing model",
+        "items": [
+          "Anything that must explain itself",
+          "Arithmetic of any kind",
+          "Comparing two dates",
+          "An open answer set"
+        ]
+      },
+      "right": {
+        "title": "Moves to a typed decision",
+        "items": [
+          "Is this worth enriching",
+          "Which sequence",
+          "Is this reply interested",
+          "Which rep owns it"
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "theme": "light",
+      "headline": "Go count the decision steps in your own pipeline",
+      "body": "Most of them are classification wearing a generation invoice. You will not know how many until you walk it once.",
+      "verdict": {
+        "win": "Decide, then write",
+        "op": ">",
+        "lose": "One model for both"
+      },
+      "button": "One pass, closed answer set",
+      "show_source_on_slide": true,
+      "source": "Figures are TypeSafe's own published measurements, vendor run"
+    }
+  ]
+}

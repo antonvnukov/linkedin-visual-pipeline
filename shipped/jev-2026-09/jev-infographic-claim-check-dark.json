@@ -1,0 +1,74 @@
+{
+  "$comment": "Save-worthy, evergreen: a Jev-flavoured checklist for grading ANY AI vendor benchmark claim, not a Jev-specific stat recap (avoids repeating the already-published 'nine ways Jev fails' post). Facts: vendor 193x vs Every's independent 25x (777 decisions/37 docs, 0.35s vs 8.83s Fable 5.1) already verified+published; HN independent-critique framing (model-consensus vs ground truth) already verified+published. No new figures beyond what's already Coach-approved.",
+  "format": "card-infographic",
+  "layout": "decisions",
+  "theme": "dark",
+  "motion": true,
+  "motion_ms": 12500,
+  "fps": 30,
+  "ease": "0.45,0,0.2,1",
+  "rise": 32,
+  "meta_left": "{ai claims} / pre-check",
+  "meta_right": "[ save this ]",
+  "title": "Should you repeat that *claim?*",
+  "sub": "Every AI vendor's Nx-faster number this week traces to the same four questions. Run it through them before you cite it.",
+  "decisions": [
+    {
+      "name": "Who ran the test?",
+      "type": "choice",
+      "ask": "State = the claim's source line and methodology note.",
+      "options": [
+        "independent_third_party",
+        "vendors_own_adapter",
+        "vendor",
+        "UNRESOLVED"
+      ],
+      "abstain": "UNRESOLVED",
+      "route": "vendor or UNRESOLVED: cite it as a claim, never a fact."
+    },
+    {
+      "name": "Ground truth, or model consensus?",
+      "type": "choice",
+      "ask": "Consensus scores agreement between models, not correctness.",
+      "options": [
+        "ground_truth",
+        "model_consensus",
+        "UNRESOLVED"
+      ],
+      "abstain": "UNRESOLVED",
+      "route": "model_consensus: the multiple only says how alike two models are."
+    },
+    {
+      "name": "Does the outside test beat the inside one?",
+      "type": "choice",
+      "ask": "One real case: outside 25x, vendor's own peak claim 193x.",
+      "options": [
+        "outside_lower",
+        "outside_higher_or_equal",
+        "not_reported"
+      ],
+      "route": "outside_higher_or_equal: the two tests likely aren't measuring the same thing."
+    },
+    {
+      "name": "Would it survive your own labels?",
+      "type": "noul",
+      "ask": "A wrong repost costs the post's credibility, not a fee.",
+      "route": "Lean no: re-measure before you publish the number."
+    }
+  ],
+  "bands": {
+    "markers": [
+      0.5,
+      0.9
+    ],
+    "labels": [
+      "DON'T REPEAT",
+      "CITE WITH CAVEAT",
+      "SAFE TO REPEAT"
+    ],
+    "caption": "Your own bar, not the vendor's. Re-derive it per claim."
+  },
+  "never": "NEVER REPEAT: a vendor's own multiple with no outside test · an accuracy % with no stated ground truth · a cost number from one task type.",
+  "source": "case: Every vs TypeSafe, 777 decisions/37 docs · method: Anton Vnukov",
+  "motion_style": "headers_first"
+}

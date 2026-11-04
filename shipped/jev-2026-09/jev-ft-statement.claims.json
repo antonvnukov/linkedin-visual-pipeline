@@ -1,0 +1,46 @@
+{
+  "artifact": "jev-ft-statement",
+  "visibleSources": true,
+  "publicationBoundary": "10 days = the gap between Jev's public launch (2026-09-15) and Financial Times coverage (2026-09-25), both dates already verified in the published/Coach-approved companion post. Sep 15 and Sep 25 are dates, not figures the card is claiming as a metric.",
+  "sources": {
+    "dates": "Jev launch 2026-09-15 (TypeSafe AI, widely reported); FT coverage 2026-09-25 (Financial Times, 'The cheap new AI model taking aim at OpenAI and Anthropic', Michael Acton, syndicated via Financial Post)."
+  },
+  "claims": [
+    {
+      "id": "gap-days",
+      "classification": "primary",
+      "display": [
+        "10"
+      ],
+      "source": "dates",
+      "allowedProminentOccurrences": {
+        "10": 1
+      },
+      "note": "Sep 25 minus Sep 15."
+    },
+    {
+      "id": "launch-day",
+      "classification": "primary",
+      "display": [
+        "15"
+      ],
+      "source": "dates",
+      "allowedProminentOccurrences": {
+        "15": 1
+      },
+      "note": "Sep 15, Jev's launch date."
+    },
+    {
+      "id": "ft-day",
+      "classification": "primary",
+      "display": [
+        "25"
+      ],
+      "source": "dates",
+      "allowedProminentOccurrences": {
+        "25": 1
+      },
+      "note": "Sep 25, FT coverage date."
+    }
+  ]
+}

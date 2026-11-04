@@ -1,0 +1,94 @@
+name: ci
+
+# Every check this repo ships runs on push. A repo full of validators that nobody
+# runs is worse than none: it reads as verified.
+on: [push, pull_request]
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      # Pillow is not optional: layout-check, the carousel PDF (capture.js) and the
+      # seam + gif_spec half of motion-check's self-test all need it. Without it the
+      # PDF step failed silently and motion-check skipped its seam tests (2026-09-22).
+      # ffmpeg too, and BEFORE the self-checks: installing it only in the render step
+      # meant motion-check's self-test ran first and skipped its whole seam half
+      # ("ffmpeg absent"), so the loop-seam and gif_spec regression tests never ran.
+      - run: |
+          pip install --quiet pillow
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+
+      - name: Agent Plugins spec conformance
+        run: |
+          python3 scripts/check-spec.py --root .
+          python3 scripts/check-spec.py --self-test
+
+      - name: Deterministic self-checks (no browser needed)
+        run: |
+          python3 scripts/brandkit.py
+          python3 scripts/routing.py
+          python3 scripts/claims.py
+          python3 scripts/storyboard.py
+          python3 scripts/gates.py
+          python3 scripts/calibrate.py
+          python3 scripts/infographic-card.py --self-test
+          python3 scripts/before-after-card.py --self-test
+          python3 scripts/motion-variety.py --self-test
+          python3 scripts/font-leak.py --self-test
+          bash    scripts/gate.sh --self-test
+          node    scripts/motion-runtime-selftest.cjs
+
+      - name: Install Playwright + Chromium
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Browser-backed self-checks
+        run: |
+          node scripts/qa-visual.cjs --self-test
+          python3 scripts/motion-check.py
+
+      - name: Render every example via the documented command
+        # render.sh, not the builders: calling builders directly is the convenient
+        # proxy that let the gate/claims wiring stay broken while CI shone green.
+        # This runs the exact command the README gives, with gate + claims + QA live.
+        run: |
+          command -v ffmpeg >/dev/null || { sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; }
+          cp brand.example.json brand.json
+          # Examples are not shipped posts: they must neither be blocked by the committed
+          # .format-history.jsonl (Anton's REAL shipping streak, e.g. 18 carousels in a
+          # row) nor append to it. Without these two, CI failed on the variety gate for
+          # reasons that say nothing about the code under test.
+          export LV_NO_RECORD=1 LV_ALLOW_REPEAT=1
+          bash scripts/render.sh examples/bar-card.example.json           bar   /tmp/r/bar
+          bash scripts/render.sh examples/dashboard-card.example.json     dash  /tmp/r/dash
+          bash scripts/render.sh examples/infographic-card.example.json   info  /tmp/r/info
+          bash scripts/render.sh examples/infographic-cycle.example.json  cyc   /tmp/r/cyc
+          bash scripts/render.sh examples/operator-carousel.example.json  opc   /tmp/r/opc
+          bash scripts/render.sh examples/flow-card.example.json          flow  /tmp/r/flow
+          bash scripts/render.sh examples/infographic-decisions-motion.example.json dm /tmp/r/dm
+          # examples/email-motion.example.json is NOT rendered here: card-email needs
+          # brand.font.mono, which brand.example.json does not carry. Verified locally
+          # (seam OK 2026-10-01); add it once the example brand ships a mono face.
+          bash scripts/render.sh examples/before-after-motion.example.json   ba    /tmp/r/ba
+          bash scripts/render.sh examples/before-after-portrait.example.json bap   /tmp/r/bap
+          # Negative fixture: motion_ms == the dissolve START (the 2026-09-27 claim-check
+          # bug). It MUST fail; a pass means the loop gate is dead.
+          if bash scripts/render.sh examples/seam-regression.example.json seamreg /tmp/r/seamreg; then
+            echo "seam-regression rendered: the loop-seam gate is not running" >&2; exit 1; fi
+          # The brand must be the ONLY source of type. A stray font here means a leak.
+          # (Replaces a `family=` URL count that returned 0 in every environment once
+          # fonts were embedded as @font-face: see scripts/font-leak.py.)
+          python3 scripts/font-leak.py /tmp/r --brand brand.json
+          # KNOWN-FAILING, run LAST so they cannot hide the examples above. Both fail
+          # identically on a clean HEAD (2026-09-22): quote has no ledger for its hero
+          # stat; social-seo-carousel fails the portrait fill gate on slides 2, 4, 6.
+          # This step stays red until they are fixed. That is deliberate: do not add
+          # continue-on-error or delete them to make it green.
+          bash scripts/render.sh examples/quote-card.example.json         quote /tmp/r/quote
+          bash scripts/render.sh examples/social-seo-carousel.example.json ssc  /tmp/r/ssc

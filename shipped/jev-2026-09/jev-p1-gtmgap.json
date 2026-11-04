@@ -1,0 +1,32 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": false,
+  "slides": [
+    {
+      "type": "versus",
+      "theme": "dark",
+      "kicker": "JEV  ·  SIX DAYS AFTER LAUNCH",
+      "headline": "SEO mapped it onto their job. *GTM has not looked up.*",
+      "left": {
+        "title": "SEO shipped 4",
+        "items": [
+          "get-ryze.ai three-part series",
+          "jevseo repo, typed judgments",
+          "screpy.com issue prioritization",
+          "awesome-jev list"
+        ]
+      },
+      "right": {
+        "title": "GTM shipped 0",
+        "items": [
+          "Lead scoring, unwritten",
+          "Routing, unwritten",
+          "Reply triage, unwritten",
+          "Sales qualification, unwritten"
+        ]
+      }
+    }
+  ]
+}

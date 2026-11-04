@@ -1,0 +1,44 @@
+{
+  "artifact": "jev-carousel-classification",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "11-5x",
+      "classification": "unverified",
+      "display": [
+        "11.5x"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "11.5x": 1
+      },
+      "note": "Appears in: bignum. Replace classification and source."
+    },
+    {
+      "id": "13",
+      "classification": "unverified",
+      "display": [
+        "13"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "13": 1
+      },
+      "note": "Appears in: headline. Replace classification and source."
+    },
+    {
+      "id": "9-6x",
+      "classification": "unverified",
+      "display": [
+        "9.6x"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "9.6x": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    }
+  ]
+}

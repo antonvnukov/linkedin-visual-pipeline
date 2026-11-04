@@ -1,0 +1,16 @@
+{
+  "$comment": "The repo's GitHub social preview, rendered BY the pipeline it advertises. Regenerate: bash scripts/render.sh assets/social-preview.config.json social-preview /tmp/sp   (then copy /tmp/sp/social-preview-slides/slide-1.png over assets/social-preview.png). 1280x640 is GitHub's recommended card size.",
+  "format": "carousel",
+  "size": { "w": 1280, "h": 640 },
+  "wordmark": "linkedin-visuals",
+  "footer_seed": "brief in, gated visual out",
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "CLAUDE CODE PLUGIN",
+      "headline": "Ship-ready social visuals *on your own brand*",
+      "subhead": "PNG cards, PDF carousels, looping MP4 + GIF. Every render passes a deterministic QA gate, a claims ledger and a blind checksummed review loop before it leaves the machine."
+    }
+  ]
+}

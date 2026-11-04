@@ -1,0 +1,11 @@
+{
+  "$comment": "Statement card for the FT-coverage post. No figures beyond what's already in the post text (no new number, so no claims file needed).",
+  "format": "card-quote",
+  "eyebrow": "AI SEARCH · SIGNAL TIMING",
+  "stat": "10",
+  "stat_label": "days: launch to FT",
+  "quote": "Financial Times covered it. Your GTM stack hasn't.",
+  "source": "TypeSafe AI's Jev, launched Sep 15 · covered by tech press same week · Financial Times, Sep 25",
+  "seed_accent": "",
+  "seed_rest": ""
+}

@@ -1,0 +1,104 @@
+{
+  "artifact": "jev-carousel-leadscore",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "09",
+      "classification": "unverified",
+      "display": [
+        "09"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "09": 1
+      },
+      "note": "Appears in: source. Replace classification and source."
+    },
+    {
+      "id": "13-403",
+      "classification": "unverified",
+      "display": [
+        "13,403"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "13,403": 1
+      },
+      "note": "Appears in: headline, source. Replace classification and source."
+    },
+    {
+      "id": "2026",
+      "classification": "unverified",
+      "display": [
+        "2026"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "2026": 1
+      },
+      "note": "Appears in: source. Replace classification and source."
+    },
+    {
+      "id": "21",
+      "classification": "unverified",
+      "display": [
+        "21"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "21": 1
+      },
+      "note": "Appears in: source. Replace classification and source."
+    },
+    {
+      "id": "22",
+      "classification": "unverified",
+      "display": [
+        "22%"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "22%": 1
+      },
+      "note": "Appears in: bignum, headline. Replace classification and source."
+    },
+    {
+      "id": "34-9",
+      "classification": "unverified",
+      "display": [
+        "34.9%"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "34.9%": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "672",
+      "classification": "unverified",
+      "display": [
+        "672"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "672": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "976",
+      "classification": "unverified",
+      "display": [
+        "976"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "976": 1
+      },
+      "note": "Appears in: headline. Replace classification and source."
+    }
+  ]
+}

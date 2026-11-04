@@ -1,0 +1,82 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "THE PAGE NOBODY LINKS",
+      "headline": "TypeSafe published *nine ways* their own model fails",
+      "subhead": "The feed has run the speed multiple for a week. The most useful thing the vendor shipped is the list of what breaks, and publishing it at all is more honest than most manage."
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "THREE WORTH KNOWING FIRST",
+      "headline": "Before you wire it into *anything*",
+      "items": [
+        "It answers the question you wrote, not the one you meant",
+        "It is not a calculator, and counting error grows with list length",
+        "Dates are read as text, not as ordered quantities"
+      ]
+    },
+    {
+      "type": "bignum",
+      "theme": "dark",
+      "kicker": "NO STRUCTURAL INVARIANTS",
+      "headline": "A question and its negation *summed to*",
+      "bignum": "1.19",
+      "body": "Same ticket, two yes or no questions. Asking for a refund scored 0.72. Asking for anything else scored 0.47. They should sum to 1."
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "WHAT THE BENCHMARK MEASURES",
+      "headline": "Scored against *two models*, not against truth",
+      "body": "An independent critique found the published evals score Jev against the average prediction of GPT-6 Astra and Fable 5.1. That measures agreement. It does not measure being right.",
+      "chips": [
+        "Vendor run",
+        "Own adapter",
+        "No ground truth"
+      ]
+    },
+    {
+      "type": "versus",
+      "theme": "dark",
+      "kicker": "READ IT THIS WAY",
+      "headline": "A typed output guarantees the *interface*, not the answer",
+      "left": {
+        "title": "What you get",
+        "items": [
+          "No value outside your enum",
+          "A calibrated distribution",
+          "A confidence to route on"
+        ]
+      },
+      "right": {
+        "title": "What you still owe",
+        "items": [
+          "Your own labelled set",
+          "Your own threshold",
+          "A shadow run before cutover"
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "theme": "light",
+      "headline": "Read the failure page before the benchmark",
+      "body": "Then re-measure on your own labelled data before you believe any multiple. That holds for every model anyone sells you this quarter.",
+      "verdict": {
+        "win": "Measured on your data",
+        "op": ">",
+        "lose": "A vendor multiple"
+      },
+      "button": "Nine failure modes, published",
+      "show_source_on_slide": true,
+      "source": "docs.typesafe.ai model jaggedness page, plus an independent eval critique"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+ "expectedWidth": 1080,
+ "expectedHeight": 1350,
+ "feedWidth": 504,
+ "artboardSelector": "#slide-1",
+ "selectorCounts": {
+  ".row": 4,
+  ".tag": 4,
+  ".closing": 1
+ },
+ "requiredText": [
+  "The number that gets budget requests killed",
+  "We show up in 120 prompts.",
+  "The metrics that move budget",
+  "A RevOps instrumentation problem,",
+  "not a reporting problem.",
+  "Most AEO reports open with a prompt count. No competitors, no baseline.",
+  "Share of voice on your top money queries",
+  "vs the vendors prospects compare you to",
+  "as a trend across months, not one snapshot",
+  "An LLM option",
+  "in your “how did you hear about us” survey"
+ ]
+}

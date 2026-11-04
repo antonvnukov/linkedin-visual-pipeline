@@ -1,0 +1,6 @@
+{
+  "expectedWidth": 1080, "expectedHeight": 1350, "feedWidth": 504, "artboardSelector": "#slide-1",
+  "selectorCounts": {".node": 6, ".seg": 6, ".step": 6},
+  "requiredText": ["Start with conservative thresholds, test with your own data, and adjust as you observe results.",
+                   "restarts the loop.", "not a vendor multiple"]
+}

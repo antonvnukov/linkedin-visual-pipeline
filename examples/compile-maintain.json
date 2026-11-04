@@ -1,0 +1,80 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "AI KNOWLEDGE SYSTEMS \u00b7 ARCHITECTURE",
+      "headline": "Compilation without *maintenance* is worse than none",
+      "subhead": "Every AI knowledge system hits this fork. Most builders pick a side. That is the mistake."
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Option 1 \u00b7 Write-time",
+      "headline": "Compile at ingest. Fast answers, and it decays.",
+      "body": "You structure everything upfront. Then your knowledge changes and the compilation does not. You serve stale answers from a system that looks current.",
+      "chips": [
+        "Structured upfront",
+        "Stale on change",
+        "Looks correct until it is not"
+      ]
+    },
+    {
+      "type": "statement",
+      "theme": "dark",
+      "kicker": "Option 2 \u00b7 Query-time",
+      "headline": "Derive at search. Flexible, and it does not scale.",
+      "body": "Re-deriving context on every query is clean in a demo. At production load it is the bottleneck, and the cost lands on the slowest path you have.",
+      "chips": [
+        "Re-derived per query",
+        "Fine in demo",
+        "Bottleneck at load"
+      ]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "The failure nobody names",
+      "headline": "Two sources of truth that *disagree*",
+      "body": "You build a structured layer. The underlying data moves. The compilation does not follow. Now the confident answer is the wrong one, and nothing in the system flags it.",
+      "chips": [
+        "Database: current",
+        "Compiled layer: stale"
+      ]
+    },
+    {
+      "type": "quote",
+      "theme": "dark",
+      "quote": "Database as source of truth. Scheduled compilation on top.",
+      "subhead": "Not compiled at ingest. Not re-derived at every query. Compiled separately, with maintenance built in.",
+      "flow": [
+        "Database (source of truth)",
+        "Scheduled compile job",
+        "Compiled layer: summaries + index",
+        "Served answer"
+      ]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "What maintenance actually means",
+      "headline": "Maintenance is part of the architecture, not a chore",
+      "body": "Che-brain runs this way: re-index summaries on a cadence, invalidate compiled nodes when source items change, database as SOT with hybrid retrieval on top.",
+      "chips": [
+        "14,223 items",
+        "26 MCP tools",
+        "Hybrid RRF"
+      ]
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "headline": "Database first. Compile second. Maintain both.",
+      "body": "The compiled layer is an optimization you build and keep, not a setup you run once and forget. Which are you running, write-time, query-time, or hybrid?",
+      "button": "+ Follow"
+    }
+  ]
+}

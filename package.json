@@ -1,0 +1,15 @@
+{
+  "name": "linkedin-visuals",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brief to ship-ready social visual on your own brand. Deterministic QA, claims ledger, blind taste loop, Remotion motion.",
+  "license": "MIT",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "check": "bash scripts/setup.sh --check"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "playwright": "^1.50.0"
+  }
+}

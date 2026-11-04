@@ -1,0 +1,108 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "dotmatrix",
+      "theme": "light",
+      "kicker": "SEO \u00b7 AEO \u00b7 BOFU",
+      "headline": "30 searches a month can beat *30,000*",
+      "left": {
+        "filled": 60,
+        "total": 60,
+        "value": "30/mo",
+        "caption": "Integration query. Ready to buy."
+      },
+      "right": {
+        "filled": 2,
+        "total": 60,
+        "value": "30,000/mo",
+        "caption": "What-is query. Ready to read."
+      }
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "The trap",
+      "headline": "High volume. Low intent.",
+      "body": "You publish another what-is guide. Traffic trickles in. The content calendar fills up and the demo calendar stays empty. Volume was never the thing standing between you and pipeline.",
+      "chips": [
+        "Traffic up",
+        "Pipeline flat",
+        "Demos empty"
+      ]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "The play",
+      "headline": "Integration pages are *stealth BOFU*",
+      "body": "Almost no competition, and the searcher already has the pain. They are not studying the category, they are trying to connect two tools today.",
+      "chips": [
+        "LinkedIn Ads + HubSpot",
+        "Clay to LinkedIn Ads",
+        "CRM attribution"
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Why it works now",
+      "headline": "Low difficulty, high extraction",
+      "items": [
+        "Ranks in days, not quarters",
+        "Nobody else is bothering to write them",
+        "LLMs lift answers from structured pages",
+        "You show the workflow, not the theory"
+      ]
+    },
+    {
+      "type": "list",
+      "theme": "light",
+      "kicker": "Page anatomy",
+      "headline": "The structure that converts",
+      "items": [
+        "What it is, in two sentences",
+        "Why it matters, in their words",
+        "Manual how-to: show the friction",
+        "Product how-to: show the relief",
+        "Use cases, FAQs, sticky CTA"
+      ]
+    },
+    {
+      "type": "versus",
+      "theme": "light",
+      "kicker": "The contrast that sells",
+      "headline": "Show the friction, then remove it",
+      "left": {
+        "title": "Doing it manually",
+        "items": [
+          "CSV exports",
+          "Fields never match",
+          "Attribution breaks"
+        ]
+      },
+      "right": {
+        "title": "With your product",
+        "items": [
+          "Connect once",
+          "Fields map themselves",
+          "Attribution holds"
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "headline": "List five. Ship one a week. Pipeline in days.",
+      "body": "Pull the pain from sales calls, G2 reviews and support tickets, then show your product beside the manual way. Which three integrations does your ICP search for most?",
+      "button": "+ Follow",
+      "verdict": {
+        "win": "Low volume + high intent",
+        "op": ">",
+        "lose": "High volume + zero intent"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "artifact": "social-seo-carousel.example",
+  "visibleSources": false,
+  "publicationBoundary": "A third-party domain-authority score for linkedin.com. It supports 'LinkedIn far outranks a typical company blog on domain authority', not any traffic or ranking guarantee.",
+  "sources": {
+    "moz-da": "Moz Domain Authority for linkedin.com at the time this example was written. Example data: DA moves; re-check the live score before shipping a real post."
+  },
+  "claims": [
+    {
+      "id": "linkedin-da-99",
+      "classification": "secondary",
+      "display": ["99"],
+      "source": "moz-da",
+      "allowedProminentOccurrences": { "99": 1 },
+      "note": "Appears in: body of the repost-across-platforms slide."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": false,
+  "slides": [
+    {
+      "type": "bignum",
+      "theme": "light",
+      "kicker": "AI VISIBILITY  ·  AGENCY PUBLISHED",
+      "headline": "queries is your *entire sample*",
+      "bignum": "40",
+      "body": "Checking 4,000 AI answers now costs about $0.42 in raw model inference, agency published. That sample size was a budget ceiling, never a methodology. The affordable question changes from are we mentioned to who got cited instead."
+    }
+  ]
+}

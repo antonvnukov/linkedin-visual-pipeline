@@ -1,0 +1,43 @@
+{
+  "$comment": "Save-worthy AEO #1: free first-party AI citation reports + free self-instrumentation vs the judgement calls no dashboard makes. Every fact from (private notes) (official docs tier unless noted). The 10.8K citation line is a single creator claim and is labelled in the source line.",
+  "format": "card-infographic",
+  "layout": "sort",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 12500,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{ai search} / measurement",
+  "meta_right": "[ save this ]",
+  "title": "Measure AI visibility for *free.*",
+  "sub": "Google and Bing now report their own AI citations. The judgement calls are the part no dashboard makes.",
+  "readout": "Before you buy a tracker: *two free reports*  ·  *five things your own logs already know*  ·  *five calls a dashboard cannot make*",
+  "columns": [
+    {"label": "FREE · FIRST PARTY", "rule": "The platforms report their own citations.",
+     "items": [
+       {"task": "GSC, Generative AI report", "why": "Impressions only, no clicks. AI Overviews and AI Mode."},
+       {"task": "Bing AI Performance", "why": "Citations, grounding queries, Citation Share. Copilot, not ChatGPT."},
+       {"task": "No menu entry?", "why": "Below threshold. Read that as zero, not as missing."},
+       {"task": "Export yes, API no", "why": "Both have download buttons. Neither has an endpoint."},
+       {"task": "Clarity AI Referral", "why": "Names Claude and Perplexity. GA4's own channel skips Perplexity."}
+     ]},
+    {"label": "FREE · YOUR LOGS", "rule": "Nobody sells you this. You already own it.",
+     "items": [
+       {"task": "GA4 channel group", "why": "Match AI referrer domains. One setup, free forever."},
+       {"task": "Split the bots", "why": "Training crawl is not a live signal. Citation fetches are."},
+       {"task": "Ask on the form", "why": "How did you hear about us. Recovers the no-referrer visits."},
+       {"task": "Fetch as a bot", "why": "robots.txt plus one fetch tells you if you are readable."},
+       {"task": "A citation is not a click", "why": "One site logged 10.8K citations and zero sales."}
+     ]},
+    {"label": "TYPED · NOT TRACKED", "rule": "A closed answer set, not a dashboard metric.",
+     "items": [
+       {"task": "Recommended, or just listed?", "why": "choice + UNRESOLVED. The whole point of the audit."},
+       {"task": "Is the claim about us stale?", "why": "noul on the answer text you already pulled."},
+       {"task": "Which evidence is missing?", "why": "choice: definition · data · quote · comparison"},
+       {"task": "Which page owns this prompt?", "why": "Build candidates in code. The model picks one."},
+       {"task": "Is this prompt even ours?", "why": "choice with a none option, before anyone optimises."}
+     ]}
+  ],
+  "source": "reports: Google + Bing docs · citation-vs-sales line: one creator’s own site, n=1"
+}

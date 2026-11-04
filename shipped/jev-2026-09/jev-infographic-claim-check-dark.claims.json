@@ -1,0 +1,13 @@
+{
+  "artifact": "jev-infographic-claim-check",
+  "visibleSources": true,
+  "publicationBoundary": "193x is TypeSafe's own vendor-run peak claim; 25x/777/37/0.35s/8.83s is Every's independent test, already fact-checked and Coach-approved in the published 'TypeSafe published a page listing nine ways Jev fails' post. Both figures appear here only as ONE worked example of the framework, never as a new claim about Jev's real speed.",
+  "sources": {
+    "every-benchmark": "Every (independent), 777 decisions across 37 documents, median 0.35s vs 8.83s for Fable 5.1 = 25x. Verified and previously published by Anton (Notion page 3e255c40-e4e7-817b-8a8e-c72d18cdb00f)."
+  },
+  "claims": [
+    {"id": "example", "classification": "secondary", "display": ["193x", "25x", "777", "37"], "source": "every-benchmark",
+     "allowedProminentOccurrences": {"193x": 1, "25x": 1, "777": 1, "37": 1},
+     "note": "One worked example inside the card (ask line + source line), not a headline claim about Jev."}
+  ]
+}

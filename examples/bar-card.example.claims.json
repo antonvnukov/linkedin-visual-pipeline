@@ -1,0 +1,18 @@
+{
+  "artifact": "bar-card.example",
+  "visibleSources": true,
+  "publicationBoundary": "One vendor's AEO study. It supports 'blog and list pages dominate LLM citations in this dataset' and never a general law: no 'always', 'proven', 'most cited overall'.",
+  "sources": {
+    "hubspot-aeo": "HubSpot AEO research (Aja Frost) — the study the card itself credits. Example data: re-verify the figure against the published study before shipping a real post."
+  },
+  "claims": [
+    {
+      "id": "62-1-pct-llm-citations",
+      "classification": "secondary",
+      "display": ["62.1%"],
+      "source": "hubspot-aeo",
+      "allowedProminentOccurrences": { "62.1%": 1 },
+      "note": "Appears in: stat. Rendered once as the hero figure; the bar restates it geometrically, not textually."
+    }
+  ]
+}

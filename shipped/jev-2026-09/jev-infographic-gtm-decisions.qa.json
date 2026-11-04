@@ -1,0 +1,3 @@
+{"expectedWidth": 1080, "expectedHeight": 1350, "feedWidth": 504, "artboardSelector": "#slide-1",
+ "selectorCounts": {".dec": 4, ".chip.ab": 3, ".band": 3},
+ "requiredText": ["UNRESOLVED", "needs_human", "do_not_send", "NEVER SEND JEV", "not a rule"]}

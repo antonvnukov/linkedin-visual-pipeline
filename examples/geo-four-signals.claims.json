@@ -1,0 +1,52 @@
+{
+  "artifact": "geo-four-signals",
+  "visibleSources": false,
+  "publicationBoundary": "DRAFT, Anton to confirm: every figure here is third-party research about AI search behaviour in general. None of it is GoToMoney client data, and none of it supports a claim that any specific action produced any specific citation lift. It supports 'the industry measurement model is shifting', not 'do X and get Y'.",
+
+  "$fill": "Each claim below needs TWO edits from a human: (1) set `classification` to primary | secondary | user-reported | estimate, and (2) set `source` to a key you also add to `sources` below. `secondary` = a study or vendor report someone else ran, which is what all of these look like. render.sh will keep refusing until every `unverified` is gone. Delete this $fill key when done.",
+
+  "sources": {},
+
+  "claims": [
+    {
+      "id": "top10-citation-overlap",
+      "classification": "unverified",
+      "display": ["38%", "76%", "10"],
+      "source": "",
+      "allowedProminentOccurrences": { "38%": 1, "76%": 1, "10": 1 },
+      "note": "Slide 1 hook. Asserts the share of AI-cited URLs that also rank in the organic top 10 fell from 76% to 38% over eight months. The '10' is the SERP band, part of the same claim, not a separate finding. This is the load-bearing number of the whole carousel: if only one figure gets verified, make it this one."
+    },
+    {
+      "id": "first-recommendation-uptake",
+      "classification": "unverified",
+      "display": ["74%"],
+      "source": "",
+      "allowedProminentOccurrences": { "74%": 1 },
+      "note": "Slide 3 chip. Asserts 74% of users act on the AI's first-named recommendation. Check whether the study measured 'clicked first result' or 'chose the recommended brand' — the card says 'take the first name', which only survives the second reading."
+    },
+    {
+      "id": "ai-mode-run-overlap",
+      "classification": "unverified",
+      "display": ["9.2%"],
+      "source": "",
+      "allowedProminentOccurrences": { "9.2%": 1 },
+      "note": "Slide 3 chip. Asserts the same query run three times through Google AI Mode returns result sets overlapping only 9.2%. Confirm it is AI Mode specifically and not AI Overviews — the card names AI Mode."
+    },
+    {
+      "id": "content-depth-citations",
+      "classification": "unverified",
+      "display": ["10.18", "2.39", "20K", "500"],
+      "source": "",
+      "allowedProminentOccurrences": { "10.18": 1, "2.39": 1, "20K": 1, "500": 1 },
+      "note": "Slide 4 chips. Asserts pages above 20,000 characters average 10.18 ChatGPT citations vs 2.39 for pages under 500 characters. Four figures, one finding, so they share a claim. The body says the gap is 'roughly fourfold' — that is 10.18/2.39 = 4.26, derived from these two, not an independent number."
+    },
+    {
+      "id": "brand-mention-rate-bands",
+      "classification": "unverified",
+      "display": ["70%", "30%"],
+      "source": "",
+      "allowedProminentOccurrences": { "70%": 1, "30%": 1 },
+      "note": "Slide 7 chips. Asserts a brand mention rate above 70% reads as strong AI visibility and below 30% as a significant gap. If these are a vendor's suggested bands rather than a measured finding, classify as 'estimate' and say whose bands they are, because a threshold with no owner reads as a law."
+    }
+  ]
+}

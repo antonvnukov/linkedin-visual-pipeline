@@ -1,0 +1,70 @@
+{
+  "artifact": "jev-p1-audit",
+  "visibleSources": true,
+  "publicationBoundary": "Agency measured run figures for one model on one task type. Supports 'per page judgment now costs a fraction of a cent' and never a claim about any named agency's pricing or margin.",
+  "sources": {
+    "get-ryze": "get-ryze.ai, an AEO agency, published these run figures for Jev. Agency measured, not independently verified."
+  },
+  "claims": [
+    {
+      "id": "0-0004",
+      "classification": "primary",
+      "display": [
+        "$0.0004"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "$0.0004": 2
+      },
+      "note": "Hero figure. Agency measured per decision cost."
+    },
+    {
+      "id": "0-21",
+      "classification": "primary",
+      "display": [
+        "$0.21"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "$0.21": 2
+      },
+      "note": "Total cost of that run."
+    },
+    {
+      "id": "45-1",
+      "classification": "primary",
+      "display": [
+        "45.1"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "45.1": 2
+      },
+      "note": "Wall clock seconds for that run."
+    },
+    {
+      "id": "50",
+      "classification": "primary",
+      "display": [
+        "50"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "50": 2
+      },
+      "note": "The sample size the card is contrasting against."
+    },
+    {
+      "id": "586",
+      "classification": "primary",
+      "display": [
+        "586"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "586": 2
+      },
+      "note": "Pages in the internal link map run."
+    }
+  ]
+}

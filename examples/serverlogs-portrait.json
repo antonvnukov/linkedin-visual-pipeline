@@ -1,0 +1,14 @@
+{
+  "format": "card-before-after",
+  "theme": "dark",
+  "eyebrow": "Search Console doesn't show which AI bots visited",
+  "headline": "Four log checks|*for AI bots*",
+  "rows": [
+    "Important pages with|*zero AI bot requests*",
+    "Important pages where bots get a *404* or an *unexpected redirect*",
+    "Pages bots reach|that *no internal link* points to",
+    "Pages where bots fetch the HTML but *never load its scripts*~The content may only appear after rendering."
+  ],
+  "note": "One limit: a log can't tell you whether an answer cited you. Zero hits doesn't prove you were skipped.",
+  "closing": "Fix access first, copy second."
+}

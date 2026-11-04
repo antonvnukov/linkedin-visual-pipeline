@@ -1,0 +1,40 @@
+{
+ "format": "card-before-after",
+ "theme": "dark",
+ "height": 1350,
+ "eyebrow": "ONE BUCKET VS FOUR STAGES",
+ "before": {
+  "pill": "ONE BUCKET",
+  "hero": "One pitch for all",
+  "steps": [
+   "Same audience",
+   "Same ad",
+   "Same message"
+  ],
+  "caption": "Anyone who touched the brand"
+ },
+ "after": {
+  "pill": "FOUR STAGES",
+  "hero": "Each stage, its own message",
+  "steps": [
+   {
+    "label": "Cold",
+    "tag": "1"
+   },
+   {
+    "label": "Engaged",
+    "tag": "2"
+   },
+   {
+    "label": "Warm",
+    "tag": "3"
+   },
+   {
+    "label": "Sales-ready",
+    "tag": "4"
+   }
+  ],
+  "caption": "Own audience, own message"
+ },
+ "closing": "Split the stages before you touch the bid."
+}

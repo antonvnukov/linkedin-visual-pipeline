@@ -1,0 +1,66 @@
+{
+  "format": "card-infographic",
+  "layout": "sort",
+  "motion": true,
+  "motion_ms": 11500,
+  "theme": "light",
+  "meta_left": "Regression fixture",
+  "title": "Seam regression",
+  "sub": "motion_ms equals the dissolve start: must NOT render",
+  "columns": [
+    {
+      "label": "Code",
+      "rule": "rule Code",
+      "items": [
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        }
+      ]
+    },
+    {
+      "label": "Typed",
+      "rule": "rule Typed",
+      "items": [
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        }
+      ]
+    },
+    {
+      "label": "Human",
+      "rule": "rule Human",
+      "items": [
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        },
+        {
+          "task": "task",
+          "why": "why"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "artifact": "jev-carousel-jaggedness",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "1-19",
+      "classification": "unverified",
+      "display": [
+        "1.19"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "1.19": 1
+      },
+      "note": "Appears in: bignum. Replace classification and source."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "artifact": "compile-maintain",
+  "visibleSources": false,
+  "publicationBoundary": "Both figures describe Anton's own che-brain instance at the moment of writing and were read from the live system, not quoted from an earlier post. They support 'this architecture is running at real scale', not any claim about performance, accuracy, or what the same design would do for someone else. Both move: re-read before reusing them.",
+  "sources": {
+    "che-brain-get-stats": "Live che-brain MCP get_stats on 2026-08-21 returned total_items = 14223 (by_status: processed 11199, raw 2387, active 453, archived 152, reviewed 32).",
+    "che-brain-tools-list": "Live JSON-RPC tools/list against the che-brain MCP server (Supabase edge function mcp-server/mcp) on 2026-08-21 returned 26 tools."
+  },
+  "claims": [
+    {
+      "id": "che-brain-item-count",
+      "classification": "primary",
+      "display": ["14,223"],
+      "source": "che-brain-get-stats",
+      "allowedProminentOccurrences": { "14,223": 1 },
+      "note": "Slide 6 chip. The post draft said 7,200, which is roughly half the live count and appears to be a stale figure carried from an earlier write-up. Corrected here against the live source."
+    },
+    {
+      "id": "che-brain-tool-count",
+      "classification": "primary",
+      "display": ["26"],
+      "source": "che-brain-tools-list",
+      "allowedProminentOccurrences": { "26": 1 },
+      "note": "Slide 6 chip. The post draft said 34. The live server advertises 26. Counted from the server's own tools/list response, not from the client-side tool list, which can be filtered."
+    }
+  ]
+}

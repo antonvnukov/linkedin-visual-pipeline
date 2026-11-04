@@ -1,0 +1,65 @@
+{
+  "$comment": "Machine config, not brand. Every model call routes through scripts/routing.py, so this is the ONLY file that names a model. `model` is the full id (pricing, calibrate); `alias` is what Workflow agent() takes. Override to match your plan.",
+  "models": {
+    "extract": {
+      "model": "claude-haiku-4-5-20251001",
+      "effort": "low",
+      "alias": "haiku"
+    },
+    "author": {
+      "model": "claude-sonnet-5",
+      "effort": "medium",
+      "alias": "sonnet"
+    },
+    "critic": {
+      "model": "claude-sonnet-5",
+      "effort": "high",
+      "alias": "sonnet"
+    },
+    "fixer": {
+      "model": "claude-sonnet-5",
+      "effort": "medium",
+      "alias": "sonnet"
+    },
+    "escalate": {
+      "model": "claude-opus-5",
+      "effort": "high",
+      "alias": "opus"
+    }
+  },
+  "loop": {
+    "critics": 3,
+    "maxRounds": 3,
+    "passScore": 9.0,
+    "escalateAfterStalls": 2
+  },
+  "calibration": {
+    "calibratedAt": null,
+    "lastRun": "2026-08-07",
+    "measuredAgainst": [
+      "claude-haiku-4-5-20251001",
+      "claude-sonnet-5"
+    ],
+    "voters": 3,
+    "result": {
+      "claude-haiku-4-5-20251001": "caught 3/5 then 2/5 seeded defects across two runs; not reliable enough",
+      "claude-sonnet-5": "caught 5/5 seeded defects unanimously, each citing the correct gate; flagged 2/2 clean controls on gate 8"
+    },
+    "note": "NOT pinned. Sonnet catches every seeded defect, but both clean controls also fail gate 8 (whitespace/void) 3-0. Investigation showed the controls are genuinely defective: the bar-card example floats in a large frame. The critics are right, so the fixture is wrong, not the tier. Re-run after the example card gets a design pass. Until then `critic` stays on Sonnet as a reasoned default rather than a measurement."
+  },
+  "pricing": {
+    "$comment": "USD per million tokens. Used only by --report-cost. Update when pricing changes.",
+    "claude-haiku-4-5-20251001": {
+      "in": 1.0,
+      "out": 5.0
+    },
+    "claude-sonnet-5": {
+      "in": 3.0,
+      "out": 15.0
+    },
+    "claude-opus-5": {
+      "in": 5.0,
+      "out": 25.0
+    }
+  }
+}

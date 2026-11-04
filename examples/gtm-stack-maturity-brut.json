@@ -1,0 +1,33 @@
+{
+  "format": "card-flow",
+  "theme": "dark",
+  "window_title": "GTM stack",
+  "pill": "Maturity",
+  "eyebrow": "GTM SYSTEMS \u00b7 MATURITY",
+  "title": "The only dashboard I open *by hand*",
+  "nodes": [
+    {
+      "label": "Enrichment API",
+      "sub": "Wired by API, not by seat",
+      "insight": "No CSV. No spreadsheet. No morning check."
+    },
+    {
+      "label": "Automation Layer",
+      "sub": "n8n + Claude Code agents",
+      "insight": "Data lands inside the workflow"
+    },
+    {
+      "label": "Scoring Agent",
+      "sub": "Qualifies before a human looks",
+      "insight": "It arrives scored, not raw"
+    },
+    {
+      "label": "CRM",
+      "sub": "Hand-opened, on purpose",
+      "insight": "The one tool that earns a login",
+      "accent": true
+    }
+  ],
+  "caption": "Count the tools you check by hand against the ones that feed the system. *That ratio is your maturity level.*",
+  "treatment": "brutalist"
+}

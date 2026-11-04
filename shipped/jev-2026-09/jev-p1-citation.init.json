@@ -1,0 +1,44 @@
+{
+  "artifact": "jev-p1-citation",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "0-42",
+      "classification": "unverified",
+      "display": [
+        "$0.42"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "$0.42": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "000",
+      "classification": "unverified",
+      "display": [
+        "000"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "000": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "40",
+      "classification": "unverified",
+      "display": [
+        "40"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "40": 1
+      },
+      "note": "Appears in: bignum. Replace classification and source."
+    }
+  ]
+}

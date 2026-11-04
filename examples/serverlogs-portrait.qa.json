@@ -1,0 +1,18 @@
+{
+ "expectedWidth": 1080,
+ "expectedHeight": 1350,
+ "feedWidth": 504,
+ "artboardSelector": "#slide-1",
+ "selectorCounts": {
+  ".row": 4,
+  ".tag": 4,
+  ".closing": 1
+ },
+ "requiredText": [
+  "Search Console doesn’t show which AI bots visited",
+  "Pages where bots fetch the HTML but never load its scripts",
+  "Zero hits doesn’t prove you were skipped.",
+  "Fix access first, copy second.",
+  "The content may only appear after rendering."
+ ]
+}

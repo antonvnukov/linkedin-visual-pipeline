@@ -1,0 +1,19 @@
+{
+  "format": "card-bar",
+  "layout": "bar",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 5500,
+  "fps": 24,
+  "window_title": "Citations by page type",
+  "pill": "LLM study",
+  "stat": "62.1%",
+  "stat_count": 62.1,
+  "headline": "of LLM citations come from blog & list pages",
+  "source": "Source: HubSpot AEO research (Aja Frost)",
+  "green_label": "Blog & list pages",
+  "green_pct": 62.1,
+  "gray_label": "All other page types",
+  "gray_pct": 37.9,
+  "note": "Measure citations, mentions, answers. *Not just clicks.*"
+}

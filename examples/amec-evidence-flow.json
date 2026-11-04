@@ -1,0 +1,33 @@
+{
+  "format": "card-flow",
+  "theme": "dark",
+  "motion": false,
+  "window_title": "GEO measurement",
+  "pill": "Principle 5",
+  "eyebrow": "AMEC · EVIDENCE DOMAINS",
+  "title": "The evidence your *GEO dashboard skips*",
+  "nodes": [
+    {
+      "label": "Upstream Reputation",
+      "sub": "Earned · Shared · Owned",
+      "insight": "The content AI models actually draw on"
+    },
+    {
+      "label": "Search Readiness",
+      "sub": "Structured · Discoverable",
+      "insight": "Whether that content can be found and parsed"
+    },
+    {
+      "label": "Output Tracking",
+      "sub": "Presence · Framing · Citations · Accuracy",
+      "insight": "What stakeholders actually see in the answer"
+    },
+    {
+      "label": "Output ≠ Outcome",
+      "sub": "AMEC Principle 5",
+      "insight": "No single tool or score proves the connection",
+      "accent": true
+    }
+  ],
+  "caption": "Citation count alone measures nothing. *Three weak signals beat one clean number.*"
+}

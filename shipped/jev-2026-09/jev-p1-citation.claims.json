@@ -1,0 +1,46 @@
+{
+  "artifact": "jev-p1-citation",
+  "visibleSources": true,
+  "publicationBoundary": "Agency published figures describing RAW MODEL INFERENCE, not a tool subscription price. Supports 'checking 4,000 answers costs about $0.42 in inference' and never 'a tracker should cost $0.42'.",
+  "sources": {
+    "get-ryze": "get-ryze.ai, an AEO agency, published these run figures for Jev. Agency measured, not independently verified."
+  },
+  "claims": [
+    {
+      "id": "0-42",
+      "classification": "primary",
+      "display": [
+        "$0.42"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "$0.42": 2
+      },
+      "note": "Hero figure. Agency published inference cost for the 4,000 answer run."
+    },
+    {
+      "id": "000",
+      "classification": "primary",
+      "display": [
+        "000"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "000": 2
+      },
+      "note": "Tokenizer fragment of 4,000. Same claim."
+    },
+    {
+      "id": "40",
+      "classification": "primary",
+      "display": [
+        "40"
+      ],
+      "source": "get-ryze",
+      "allowedProminentOccurrences": {
+        "40": 2
+      },
+      "note": "Typical tracker query allotment, per the same source."
+    }
+  ]
+}

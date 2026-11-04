@@ -1,0 +1,46 @@
+{
+  "artifact": "jev-carousel-classification",
+  "visibleSources": true,
+  "publicationBoundary": "Every figure is TypeSafe's own vendor-run measurement and the deck says so on the slide that carries it. Supports 'batching 13 questions measured 11.5x cheaper and 9.6x faster in the vendor's own test' and never an independently verified speedup.",
+  "sources": {
+    "typesafe-docs": "TypeSafe's own published documentation at docs.typesafe.ai. Vendor measured and vendor run, not independently verified."
+  },
+  "claims": [
+    {
+      "id": "11-5x",
+      "classification": "secondary",
+      "display": [
+        "11.5x"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "11.5x": 1
+      },
+      "note": "Hero figure. Vendor measured cost delta for batching 13 questions into one call."
+    },
+    {
+      "id": "13",
+      "classification": "secondary",
+      "display": [
+        "13"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "13": 1
+      },
+      "note": "Number of questions in that vendor test, stated in the headline."
+    },
+    {
+      "id": "9-6x",
+      "classification": "secondary",
+      "display": [
+        "9.6x"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "9.6x": 1
+      },
+      "note": "Vendor measured latency delta from the same test, in the body."
+    }
+  ]
+}

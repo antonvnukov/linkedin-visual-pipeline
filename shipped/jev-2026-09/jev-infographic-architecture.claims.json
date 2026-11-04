@@ -1,0 +1,14 @@
+{
+  "artifact": "jev-infographic-architecture",
+  "visibleSources": false,
+  "publicationBoundary": "Both figures are Anton's own first-party measurement of his own outbound lists (5 lists, 13,403 rows; a regex title ladder left 2,976 titles unclassified), as already published in the Jev GTM Decision Layer Spec and his 'Four GTM decisions' post. They describe his lists, never a benchmark for anyone else's pipeline, and never a Jev result: the architecture is a spec, not a deployed system.",
+  "sources": {
+    "anton-lists": "Anton Vnukov's own outbound lists: 5 scored CSV lists, 13,403 scored rows, 2,976 titles (22.2%) in other_title (re-verified on the real CSVs 2026-09-21; plan file curried-cascade.md §5)."
+  },
+  "claims": [
+    {"id": "13403", "classification": "primary", "display": ["13,403"], "source": "anton-lists",
+     "allowedProminentOccurrences": {"13,403": 1}, "note": "Row count across 5 of Anton's own outbound lists."},
+    {"id": "2976", "classification": "primary", "display": ["2,976"], "source": "anton-lists",
+     "allowedProminentOccurrences": {"2,976": 1}, "note": "Titles the regex ladder never classified."}
+  ]
+}

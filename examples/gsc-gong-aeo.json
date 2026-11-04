@@ -1,0 +1,29 @@
+{
+  "format": "card-before-after",
+  "theme": "dark",
+  "eyebrow": "AEO  ·  BUYER RESEARCH  ·  CONVERSATION DATA",
+  "before": {
+    "pill": "SEARCH CONSOLE",
+    "subhead": "Google search queries only",
+    "steps": [
+      "LLM prompts",
+      "AI conversation topics",
+      "Which sources get cited",
+      "Prompt-level intent"
+    ],
+    "caption": "No tab. No report. No data."
+  },
+  "after": {
+    "pill": "YOUR CALL LIBRARY",
+    "hero": "The questions *buyers actually asked*",
+    "steps": [
+      { "label": "What is AEO?", "tag": "awareness" },
+      { "label": "How do LLMs pick sources?", "tag": "awareness" },
+      { "label": "AEO vs SEO, what changes?", "tag": "consider" },
+      { "label": "Do we need a tool for this?", "tag": "consider" },
+      { "label": "How do we track citations?", "tag": "decision" },
+      { "label": "How do we structure answers?", "tag": "decision" }
+    ],
+    "caption": "Export · Extract · Cluster · Write"
+  }
+}

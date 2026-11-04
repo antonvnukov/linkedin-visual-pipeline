@@ -1,0 +1,35 @@
+{
+  "format": "card-email",
+  "theme": "dark",
+  "motion": true,
+  "eyebrow": "OUTBOUND · COLD EMAIL",
+  "title": "The *5-line* outbound email skeleton",
+  "kicker": "Most cold emails fail before they're opened.",
+  "rows": [
+    {
+      "tag": "SUBJECT",
+      "text": "signal-based, under 6 words"
+    },
+    {
+      "tag": "LINE 1",
+      "text": "one specific thing you noticed about them"
+    },
+    {
+      "tag": "LINE 2",
+      "text": "the problem it probably causes them"
+    },
+    {
+      "tag": "LINE 3",
+      "text": "what you do about it (not who you are)"
+    },
+    {
+      "tag": "LINE 4",
+      "text": "one proof point or social signal"
+    },
+    {
+      "tag": "LINE 5",
+      "text": "soft CTA, one ask only"
+    }
+  ],
+  "motion_ms": 6500
+}

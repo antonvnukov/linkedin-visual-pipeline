@@ -1,0 +1,48 @@
+{
+  "format": "card-dashboard",
+  "layout": "dashboard",
+  "theme": "dark",
+  "motion": true,
+  "window_title": "AEO Scoreboard",
+  "range": "Last 30 days",
+  "headline": "Traffic down. *Citations up.*",
+  "subhead": "You're measuring the wrong scoreboard.",
+  "tiles_eyebrow": "Three metrics to track",
+  "tiles": [
+    {
+      "label": "Mentions",
+      "value": "up",
+      "sub": "Brand mentioned in AI answers"
+    },
+    {
+      "label": "Citations",
+      "value": "up",
+      "sub": "Cited / linked as a source"
+    },
+    {
+      "label": "Visibility rate",
+      "value": "up",
+      "sub": "% of target queries where you appear"
+    }
+  ],
+  "strip_eyebrow": "Break down by engine",
+  "strip": [
+    {
+      "name": "ChatGPT",
+      "cap": "Citations",
+      "spark": [8, 11, 10, 14, 19, 23, 27]
+    },
+    {
+      "name": "Perplexity",
+      "cap": "Citations",
+      "spark": [3, 5, 6, 6, 9, 13, 18]
+    },
+    {
+      "name": "Gemini",
+      "cap": "Citations",
+      "spark": [12, 10, 13, 11, 15, 16, 21]
+    }
+  ],
+  "note": "Traffic is a *trailing indicator* in AI search.",
+  "note_cap": "Track visibility first. Traffic may follow."
+}

@@ -1,0 +1,68 @@
+{
+  "artifact": "jev-p1-audit",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "0-0004",
+      "classification": "unverified",
+      "display": [
+        "$0.0004"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "$0.0004": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "0-21",
+      "classification": "unverified",
+      "display": [
+        "$0.21"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "$0.21": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "45-1",
+      "classification": "unverified",
+      "display": [
+        "45.1"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "45.1": 1
+      },
+      "note": "Appears in: headline. Replace classification and source."
+    },
+    {
+      "id": "50",
+      "classification": "unverified",
+      "display": [
+        "50"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "50": 1
+      },
+      "note": "Appears in: body. Replace classification and source."
+    },
+    {
+      "id": "586",
+      "classification": "unverified",
+      "display": [
+        "586"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "586": 1
+      },
+      "note": "Appears in: bignum. Replace classification and source."
+    }
+  ]
+}

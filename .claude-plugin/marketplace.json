@@ -1,0 +1,14 @@
+{
+  "name": "linkedin-visuals",
+  "owner": {
+    "name": "Anton Vnukov",
+    "url": "https://github.com/antonvnukov"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-visuals",
+      "source": "./",
+      "description": "Brief to ship-ready social visual on your own brand: PNG cards, PDF carousels, looping MP4 + GIF via Remotion. Deterministic QA gate, claims ledger, and a blind checksummed taste loop. Every colour, font and footer comes from one brand.json."
+    }
+  ]
+}

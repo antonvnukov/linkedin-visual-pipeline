@@ -1,0 +1,57 @@
+{
+  "format": "card-infographic",
+  "layout": "decisions",
+  "theme": "dark",
+  "motion": true,
+  "fps": 30,
+  "ease": "0.45,0,0.2,1",
+  "rise": 32,
+  "motion_return": "reverse",
+  "motion_morph": true,
+  "meta_left": "example / motion grammar",
+  "title": "Should you repeat that *claim?*",
+  "sub": "Return, hold-life and morph on one card.",
+  "decisions": [
+    {
+      "name": "Who ran the test?",
+      "type": "choice",
+      "ask": "State the source line.",
+      "options": [
+        "third party",
+        "vendor",
+        "UNRESOLVED"
+      ],
+      "abstain": "UNRESOLVED",
+      "route": "vendor or unresolved: a claim, never a fact."
+    },
+    {
+      "name": "Ground truth or consensus?",
+      "type": "choice",
+      "ask": "What the score agrees with.",
+      "options": [
+        "ground truth",
+        "model consensus"
+      ],
+      "route": "consensus only says models agree."
+    },
+    {
+      "name": "Would it survive your labels?",
+      "type": "noul",
+      "ask": "A wrong repeat costs credibility.",
+      "route": "lean no: re-measure first."
+    }
+  ],
+  "bands": {
+    "markers": [
+      0.5,
+      0.9
+    ],
+    "labels": [
+      "DON'T REPEAT",
+      "CITE WITH CAVEAT",
+      "SAFE"
+    ],
+    "caption": "Example thresholds, not a rule."
+  },
+  "motion_ms": 13400
+}

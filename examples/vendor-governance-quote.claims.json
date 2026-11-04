@@ -1,0 +1,26 @@
+{
+  "artifact": "vendor-governance-quote",
+  "visibleSources": false,
+  "publicationBoundary": "Both figures come from one real teardown of one agent-installed tool on Anton's own machine. They support 'this class of tool re-installs itself from several places at once, so removal needs a gate not an edit'. They are a single incident, not a benchmark: do not frame either number as typical, as a vendor-wide property, or as measured across tools.",
+  "sources": {
+    "headroom-teardown-rule": "The write-back paths are enumerated in ~/.claude/conventions/workflow.md, 'Removing an agent-installed integration: kill the GATE, not the leaf': a 0.3s settings.json reconciler inside the running proxy, `init hook ensure` on SessionStart, the same on PreToolUse, a launchd KeepAlive, and managed shell-rc blocks. The gate they all consult is ~/.headroom/deploy/<profile>/manifest.json. Read 2026-09-12."
+  },
+  "claims": [
+    {
+      "id": "write-back-paths",
+      "classification": "primary",
+      "display": ["5"],
+      "source": "headroom-teardown-rule",
+      "allowedProminentOccurrences": { "5": 1 },
+      "note": "Hero stat. Counted from the enumerated list, which names five mechanisms. Judgement call worth knowing: SessionStart and PreToolUse are the same `init hook ensure` mechanism on two triggers, so a stricter count reads 4. Five is defensible because each fires independently and each had to be disabled; if challenged, the honest answer is 'five trigger points, four mechanisms'."
+    },
+    {
+      "id": "hung-request-duration",
+      "classification": "user-reported",
+      "display": ["49"],
+      "allowedProminentOccurrences": { "49": 1 },
+      "source": "",
+      "note": "Source line. Anton's own observed incident. Searched the local transcripts for a primary log of the hang and found no timing record, only later references to it, so this is classified as his report rather than verified. If a proxy log or session timestamp exists, promote it to primary and add the source."
+    }
+  ]
+}

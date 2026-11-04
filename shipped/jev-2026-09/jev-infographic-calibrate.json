@@ -1,0 +1,28 @@
+{
+  "$comment": "Jev field guide #5 of the series: Anton's calibration method as a loop. Method = ~/.claude/plans/system-instruction-you-are-working-curried-cascade.md Phase 1-2. Quote verbatim from TypeSafe docs (mirror line 1289). No figures.",
+  "format": "card-infographic",
+  "layout": "cycle",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 13000,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{jev} / field guide · calibration",
+  "meta_right": "[ method ]",
+  "title": "Calibrate before you *trust it.*",
+  "sub": "Six steps between a vendor benchmark and a live revenue gate.",
+  "steps": [
+    {"name": "Count your labels", "detail": "Decisions you already made by hand are a free test set."},
+    {"name": "Ask the same question", "detail": "Same typed question, same options, on those records."},
+    {"name": "Measure the misses", "detail": "Error rate at every threshold, not one accuracy number."},
+    {"name": "Set the threshold", "detail": "State its error rate AND the share it sends to review."},
+    {"name": "Shadow run", "detail": "Log both verdicts. Alert only when they disagree."},
+    {"name": "Cut over", "detail": "When the disagreements are understood, not when the demo looks good."}
+  ],
+  "core": {"kicker": "YOUR DATA", "line": "not a vendor multiple"},
+  "quote": {"text": "Start with conservative thresholds, test with your own data, and adjust as you observe results.",
+            "cite": "TypeSafe docs, on choosing confidence thresholds"},
+  "loop_note": "A new model version *restarts the loop.* TypeSafe's failure page is versioned: jev-1.13.",
+  "source": "method: Anton Vnukov · quote: docs.typesafe.ai"
+}

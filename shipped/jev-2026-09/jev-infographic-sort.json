@@ -1,0 +1,109 @@
+{
+  "$comment": "Save-worthy #3: GTM/SEO tasks sorted by the shape of their answer. CODE reasons are TypeSafe's own documented failure modes for jev-1.13 (not a calculator; dates read as text). Examples are illustrative tasks, no figures.",
+  "format": "card-infographic",
+  "layout": "sort",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 12500,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{jev} / field guide · routing",
+  "meta_right": "[ sort your stack ]",
+  "title": "Code, Jev, or *an LLM?*",
+  "sub": "Sort every GTM and SEO step by the shape of its answer, not by how smart it sounds.",
+  "readout": "Ask in order:  number or date? *CODE*  ·  closed answer set? *JEV*  ·  must write words? *LLM*",
+  "columns": [
+    {
+      "label": "CODE",
+      "rule": "A number, a date, or a rule you already decided.",
+      "items": [
+        {
+          "task": "Weighted lead score",
+          "why": "Arithmetic. Jev is documented as not a calculator."
+        },
+        {
+          "task": "A month since last touch?",
+          "why": "Jev reads dates as text, not quantities."
+        },
+        {
+          "task": "Hard-DQ: agencies, tiny teams",
+          "why": "A policy, not a judgement. Pre-filter."
+        },
+        {
+          "task": "Dedupe by domain",
+          "why": "Exact match. Deterministic and free."
+        },
+        {
+          "task": "Traffic change month on month",
+          "why": "Arithmetic again. Compute it, then ask."
+        },
+        {
+          "task": "SLA window breached?",
+          "why": "A date window. Compute it in code."
+        }
+      ]
+    },
+    {
+      "label": "JEV",
+      "rule": "A closed answer set a person answers in one second.",
+      "items": [
+        {
+          "task": "Reply intent",
+          "why": "choice: interested · objection · OOO · needs_human"
+        },
+        {
+          "task": "Lead tier",
+          "why": "choice with UNRESOLVED, never a forced tier"
+        },
+        {
+          "task": "Search intent of a keyword",
+          "why": "choice: info · commercial · transactional · nav"
+        },
+        {
+          "task": "Which page owns this keyword?",
+          "why": "Build candidates in code. Jev picks one."
+        },
+        {
+          "task": "Is this page on-topic for the cluster?",
+          "why": "noul: one probability, no confidence"
+        },
+        {
+          "task": "Spam or real inbound?",
+          "why": "choice with a none-of-these option"
+        }
+      ]
+    },
+    {
+      "label": "LLM",
+      "rule": "Words must be written.",
+      "items": [
+        {
+          "task": "Cold email first line",
+          "why": "Generation. Downstream of a Jev decision."
+        },
+        {
+          "task": "Answer an objection",
+          "why": "Generation, after Jev tagged it objection."
+        },
+        {
+          "task": "Title and meta rewrite",
+          "why": "Generation, on pages Jev flagged."
+        },
+        {
+          "task": "Content brief from a SERP",
+          "why": "Synthesis across sources."
+        },
+        {
+          "task": "Call summary for the CRM",
+          "why": "Summarising. Jev never writes prose."
+        },
+        {
+          "task": "Reply to a LinkedIn comment",
+          "why": "Generation. Jev can pick which ones to answer."
+        }
+      ]
+    }
+  ],
+  "source": "failure modes: docs.typesafe.ai jev-1.13 · sort: Anton Vnukov"
+}

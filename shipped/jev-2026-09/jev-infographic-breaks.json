@@ -1,0 +1,38 @@
+{
+  "$comment": "Jev field guide #1 of the series: nine failure modes + the vendor's fix for each. Every string traced to (private notes) Companion to Content Idea 3e355c40-e4e7-81f2-9a01-fda5750fbed3.",
+  "format": "card-infographic",
+  "layout": "spine",
+  "theme": "light",
+  "motion": true,
+  "motion_ms": 14000,
+  "fps": 30,
+  "ease": "0.2,0.8,0.2,1",
+  "rise": 16,
+  "meta_left": "{jev} / field guide · jev-1.13",
+  "meta_right": "[ docs.typesafe.ai ]",
+  "title": "Nine ways it *breaks.*",
+  "sub": "And the fix for each, straight from TypeSafe's own docs.",
+  "cells": [
+    {"label": "NOUL", "line": "Yes / no", "detail": "returns 1 probability", "emph": "no confidence field"},
+    {"label": "CHOICE", "line": "Pick one of N", "detail": "prob per option + confidence", "emph": "max 255 options"},
+    {"label": "SCORE", "line": "Rate on a rubric", "detail": "float + prob per level + confidence", "emph": "2 to 10 levels"}
+  ],
+  "readout": "*64K* context · *32K* state + longest question · *1,200* req/min · *$0.042* per *1M* input · output not billed",
+  "nodes": [
+    {"name": "Literal reading", "fix": "Write the exact condition and the criteria for each option"},
+    {"name": "Math and numbers", "fix": "Keep the arithmetic in code"},
+    {"name": "Date and time comparison", "fix": "Extract the components; compare in code"},
+    {"name": "Indirection", "fix": "Reduce hops; point to the relevant state"},
+    {"name": "Irrelevant large state", "fix": "Filter first; send only what the question needs"},
+    {"name": "Adversarial content", "fix": "Precise prompts; test edge cases before deploying"},
+    {"name": "Contradictory criteria", "fix": "Align the criteria and the instruction"},
+    {"name": "Structural invariants", "fix": "Ask each decision one way; enforce identities in code"},
+    {"name": "Generation", "fix": "Use a generative model"}
+  ],
+  "scale": {
+    "markers": [0.5, 0.9],
+    "labels": ["Below 0.5: a human reviews", "Low stakes: act, it's recoverable", "High stakes: act above 0.9, still confirm"],
+    "caption": "TypeSafe's example thresholds, from its docs. Tune them on your own data."
+  },
+  "source": "source: docs.typesafe.ai · jev-1.13 jaggedness + primitives"
+}

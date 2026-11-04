@@ -1,0 +1,44 @@
+{
+  "artifact": "jev-p1-builder",
+  "visibleSources": false,
+  "publicationBoundary": "TODO: one sentence on how this data may and may not be framed.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "048",
+      "classification": "unverified",
+      "display": [
+        "048"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "048": 1
+      },
+      "note": "Appears in: subhead. Replace classification and source."
+    },
+    {
+      "id": "144",
+      "classification": "unverified",
+      "display": [
+        "144"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "144": 1
+      },
+      "note": "Appears in: subhead. Replace classification and source."
+    },
+    {
+      "id": "331",
+      "classification": "unverified",
+      "display": [
+        "331"
+      ],
+      "source": "",
+      "allowedProminentOccurrences": {
+        "331": 1
+      },
+      "note": "Appears in: subhead. Replace classification and source."
+    }
+  ]
+}

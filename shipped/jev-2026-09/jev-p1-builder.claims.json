@@ -1,0 +1,46 @@
+{
+  "artifact": "jev-p1-builder",
+  "visibleSources": true,
+  "publicationBoundary": "All figures are first party counts from Anton's own machine and support statements about his own corpus only.",
+  "sources": {
+    "first-party-scan": "Anton's own session corpus scanned 2026-09-21: 2,048 files, 4,648 real human turns, counts produced by a direct scan of the transcripts."
+  },
+  "claims": [
+    {
+      "id": "048",
+      "classification": "primary",
+      "display": [
+        "048"
+      ],
+      "source": "first-party-scan",
+      "allowedProminentOccurrences": {
+        "048": 1
+      },
+      "note": "Tokenizer fragment of 2,048. Same claim."
+    },
+    {
+      "id": "144",
+      "classification": "primary",
+      "display": [
+        "144"
+      ],
+      "source": "first-party-scan",
+      "allowedProminentOccurrences": {
+        "144": 1
+      },
+      "note": "User turns that were a bare single digit."
+    },
+    {
+      "id": "331",
+      "classification": "primary",
+      "display": [
+        "331"
+      ],
+      "source": "first-party-scan",
+      "allowedProminentOccurrences": {
+        "331": 1
+      },
+      "note": "Tokenizer fragment of 1,331. Same claim."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+ "format": "card-before-after",
+ "theme": "light",
+ "height": 1350,
+ "eyebrow": "A button and a span can look exactly the same",
+ "headline": "Looking clickable doesn't mean an AI\u00a0agent *knows it can click.*",
+ "same": "Same words. Same styling.",
+ "button": "Add to cart",
+ "left": {
+  "code": "<span>",
+  "note": "On its own, no built-in signal",
+  "cls": "l"
+ },
+ "right": {
+  "code": "<button>",
+  "note": "*Built-in signal*: this is an interactive control",
+  "cls": "r"
+ },
+ "footline": "Custom controls can work. But their appearance alone doesn't tell you whether they will.",
+ "closing": [
+  "Inspect the element.",
+  "Then test whether an agent can actually find and use it."
+ ],
+ "head_size": 78
+}

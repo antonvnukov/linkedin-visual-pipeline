@@ -1,0 +1,84 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "treatment": "brutalist",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "FIRST PARTY  ·  5 OUTBOUND LISTS",
+      "headline": "22% of my job titles were *never scored*",
+      "subhead": "Not scored low. Never classified at all. A rep works the list top down and cannot tell the two apart, because in the CRM they look exactly the same."
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "HOW IT BREAKS",
+      "headline": "My scorer is a *ladder*, and a ladder has a floor",
+      "body": "It checks each rung in order. Anything that matches nothing falls through to other and scores low, silently, with no signal that it was never read.",
+      "chips": [
+        "Disqualifying",
+        "Decision maker",
+        "VP / director",
+        "Manager",
+        "Everything else"
+      ]
+    },
+    {
+      "type": "bignum",
+      "theme": "dark",
+      "kicker": "THE COUNT",
+      "headline": "*2,976* of 13,403 job titles",
+      "bignum": "22%",
+      "body": "could not be read by the ladder at all. Companies came out worse: 4,672 rows, which is 34.9%."
+    },
+    {
+      "type": "versus",
+      "theme": "light",
+      "kicker": "THE BLIND SPOT",
+      "headline": "A low score and an unread row look *identical*",
+      "left": {
+        "title": "What the rep sees",
+        "items": [
+          "A ranked list",
+          "A low score near the bottom",
+          "A reason to skip it"
+        ]
+      },
+      "right": {
+        "title": "What actually happened",
+        "items": [
+          "No pattern matched",
+          "The row defaulted",
+          "Nobody measured how often"
+        ]
+      }
+    },
+    {
+      "type": "quote",
+      "theme": "dark",
+      "quote": "The fix is not a smarter model first. It is finding out how much of your own list your scorer cannot read.",
+      "subhead": "A better model on an unmeasured list just moves the guessing somewhere you cannot see it.",
+      "flow": [
+        "Measure the fall-through",
+        "Pick a threshold from it",
+        "Shadow before you cut over"
+      ]
+    },
+    {
+      "type": "cta",
+      "theme": "light",
+      "headline": "Go compute your own unclassified rate",
+      "body": "One number, on your own list, this week. It is the cheapest audit in your pipeline and almost nobody has run it.",
+      "verdict": {
+        "win": "Knowing what you cannot read",
+        "op": ">",
+        "lose": "Trusting a score you never audited"
+      },
+      "button": "Instrumented beats accurate",
+      "show_source_on_slide": true,
+      "source": "First party: 5 scored outbound lists, 13,403 rows, measured 2026-09-21"
+    }
+  ]
+}

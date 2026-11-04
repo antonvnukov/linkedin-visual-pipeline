@@ -1,0 +1,7 @@
+node_modules/
+out/
+remotion/public/card.html
+__pycache__/
+.DS_Store
+brand.json
+assets/avatar.*

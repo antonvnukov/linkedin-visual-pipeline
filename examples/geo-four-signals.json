@@ -1,0 +1,75 @@
+{
+  "format": "carousel",
+  "size": "portrait",
+  "show_slide_count": true,
+  "slides": [
+    {
+      "type": "hook",
+      "theme": "dark",
+      "kicker": "GEO · AI SEARCH · MEASUREMENT",
+      "headline": "38% of AI citations rank in the top 10",
+      "subhead": "Eight months ago it was 76%. Rankings and visibility have decoupled."
+    },
+    {
+      "type": "versus",
+      "theme": "light",
+      "kicker": "The Shift",
+      "headline": "AI decides *whether* to cite you. Not where you rank.",
+      "left": {
+        "title": "What rank trackers see",
+        "items": ["Ranking position", "Keyword volume", "SERP features", "Click-through rate"]
+      },
+      "right": {
+        "title": "What AI decides on",
+        "items": ["Citation frequency", "Mention order", "Authority framing", "Comparative position"]
+      }
+    },
+    {
+      "type": "statement",
+      "theme": "dark",
+      "kicker": "Signal 1 · Mention Order",
+      "headline": "Being named first matters. Being named first is not stable.",
+      "body": "Same query, three runs, and AI Mode barely agrees with itself. Brand recognition can override position entirely.",
+      "chips": ["74% take the first name", "9.2% run-to-run overlap"]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Signal 2 · Content Depth",
+      "headline": "Thin data about your brand means thin mentions in the answer",
+      "body": "Depth is a citation input, not a vanity metric. The gap between a deep page and a stub is roughly fourfold.",
+      "chips": ["20K+ chars: 10.18 cites", "Under 500: 2.39 cites"]
+    },
+    {
+      "type": "statement",
+      "theme": "dark",
+      "kicker": "Signal 3 · Authority Framing",
+      "headline": "AI assigns you a tier before it describes you",
+      "body": "Leaders get *industry standard*. Challengers get *growing alternative*. That one word decides whether the reader acts.",
+      "chips": ["Leader", "Challenger", "Niche player"]
+    },
+    {
+      "type": "statement",
+      "theme": "light",
+      "kicker": "Signal 4 · Comparative Positioning",
+      "headline": "You are not competing for position one. You are competing to own *best for X*.",
+      "body": "Users self-select on the category slot the model puts you in. Win the slot, not the rank.",
+      "chips": ["Best for enterprise", "Best for speed", "Best for budget"]
+    },
+    {
+      "type": "statement",
+      "theme": "dark",
+      "kicker": "The New Scoreboard",
+      "headline": "Citation frequency replaces rankings as the primary metric",
+      "body": "Brand mention rate is the health check. Traditional rank trackers cannot see any of it.",
+      "chips": ["Above 70%: strong", "Below 30%: real gap"]
+    },
+    {
+      "type": "cta",
+      "theme": "dark",
+      "headline": "Which of these four signals are you actually tracking?",
+      "body": "Most teams track none of them and call it an AI search strategy. Pick one this week and get a baseline.",
+      "button": "+ Follow"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "format": "card-before-after",
+  "theme": "light",
+  "size": "portrait",
+  "motion": true,
+  "motion_ms": 9800,
+  "fps": 24,
+  "row_start": 1000,
+  "row_step": 1000,
+  "closing_s": 7200,
+  "eyebrow": "Tools won't fix that",
+  "headline": "Your GTM has *6 pieces.*",
+  "rows": [
+    "Who the customer should be~Do your last 10 wins share one profile?",
+    "Where to find them~Ask your last 3 customers where they first heard of you.",
+    "Message and packaging~Ask 3 people on your team what you sell.|Do the answers match?",
+    "Trust on LinkedIn~Open your leaders' profiles as a buyer.|Can you tell who they help?",
+    "Cold outreach~Take last month's replies.|Name the message and the list behind each.",
+    "One CRM~Pick a deal from last quarter.|Can you read every step from the CRM alone?"
+  ],
+  "closing": "Stop at the *first no.*"
+}

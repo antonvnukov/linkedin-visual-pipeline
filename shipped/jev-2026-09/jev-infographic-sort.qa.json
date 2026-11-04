@@ -1,0 +1,3 @@
+{"expectedWidth": 1080, "expectedHeight": 1350, "feedWidth": 504, "artboardSelector": "#slide-1",
+ "selectorCounts": {".col": 3, ".col li": 18},
+ "requiredText": ["CODE", "JEV", "LLM", "not a calculator", "dates as text"]}

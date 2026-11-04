@@ -1,0 +1,29 @@
+{
+  "format": "card-before-after",
+  "theme": "dark",
+  "motion": false,
+  "eyebrow": "GTM  ·  MCP  ·  TOOL ACCESS",
+  "before": {
+    "pill": "COPY / PASTE",
+    "subhead": "You are still the one doing the work",
+    "steps": [
+      "Ask ChatGPT",
+      "Copy the output",
+      "Open the tool",
+      "Paste it in",
+      "Do it again tomorrow"
+    ],
+    "caption": "4-6 hrs of n8n debugging"
+  },
+  "after": {
+    "pill": "MCP",
+    "hero": "*5 min*, and it acts",
+    "steps": [
+      { "label": "HeyReach: triage the inbox", "tag": "drafts" },
+      { "label": "n8n: build the workflow", "tag": "JSON" },
+      { "label": "HubSpot: query the CRM", "tag": "answers" },
+      { "label": "You approve", "tag": "assist" }
+    ],
+    "caption": "Claude acts inside the stack"
+  }
+}

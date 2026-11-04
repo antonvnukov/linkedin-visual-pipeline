@@ -1,0 +1,33 @@
+{
+  "format": "card-flow",
+  "theme": "dark",
+  "motion": false,
+  "window_title": "MCP adoption",
+  "pill": "Assist first",
+  "eyebrow": "GTM · MCP · TRUST LADDER",
+  "title": "Hand over one tool *at a time*",
+  "nodes": [
+    {
+      "label": "Assist",
+      "sub": "Claude drafts",
+      "insight": "It writes the follow-up. You still hit send."
+    },
+    {
+      "label": "Controlled Autopilot",
+      "sub": "Defined scenarios",
+      "insight": "It acts, inside limits you scoped in advance"
+    },
+    {
+      "label": "True Autopilot",
+      "sub": "Low-risk flows only",
+      "insight": "It runs without you in the loop at all"
+    },
+    {
+      "label": "Give It The Keys",
+      "sub": "HeyReach · n8n · HubSpot",
+      "insight": "Tool access beats copy and paste",
+      "accent": true
+    }
+  ],
+  "caption": "MCPs close the gap between AI output and *tool action.*"
+}

@@ -1,0 +1,13 @@
+{
+  "artifact": "serverlogs-portrait",
+  "visibleSources": true,
+  "publicationBoundary": "No measured data. The only figure is the HTTP status code 404 named in check 2 of the post text. The card states four checks to run and one limit; it never claims any bot visit count.",
+  "sources": {
+    "post": "Anton's LinkedIn post text on server-log checks for AI bots (the only source of every string on the card)."
+  },
+  "claims": [
+    {"id": "404", "classification": "secondary", "display": ["404"], "source": "post",
+     "allowedProminentOccurrences": {"404": 1},
+     "note": "HTTP status code 404 (not found), named in check 2: 'bots get a 404 or an unexpected redirect'. A status code, not a measurement."}
+  ]
+}

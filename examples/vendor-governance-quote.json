@@ -1,0 +1,10 @@
+{
+  "format": "card-quote",
+  "theme": "dark",
+  "window_title": "Vendor teardown",
+  "eyebrow": "REVENUE ARCHITECTURE · VENDOR GOVERNANCE",
+  "stat": "5",
+  "stat_label": "write-back paths found for one deleted tool",
+  "quote": "A tool you can't cleanly remove is a tool that owns your stack.",
+  "source": "Same tool also hung one request for 49 minutes before it failed."
+}

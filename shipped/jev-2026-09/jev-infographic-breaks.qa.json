@@ -1,0 +1,18 @@
+{
+ "expectedWidth": 1080,
+ "expectedHeight": 1350,
+ "feedWidth": 504,
+ "artboardSelector": "#slide-1",
+ "selectorCounts": {
+  ".node": 9,
+  ".item": 9,
+  ".cell": 3,
+  ".mark": 2
+ },
+ "requiredText": [
+  "TypeSafe’s example thresholds, from its docs. Tune them on your own data.",
+  "Write the exact condition and the criteria for each option",
+  "Use a generative model",
+  "no confidence field"
+ ]
+}

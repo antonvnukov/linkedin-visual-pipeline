@@ -1,0 +1,24 @@
+{
+  "artifact": "integration-pages-bofu",
+  "visibleSources": false,
+  "publicationBoundary": "30 and 30,000 are illustrative orders of magnitude for a search-volume contrast, not the measured volume of any specific keyword. They support the argument 'intent beats volume', and must not be read as 'integration keywords get exactly 30 searches' or as a benchmark anyone could look up. The dot grids are equal-sized on purpose and encode intent density, not volume: no dot represents a fixed quantity.",
+  "sources": {},
+  "claims": [
+    {
+      "id": "low-volume-anchor",
+      "classification": "estimate",
+      "display": ["30"],
+      "source": "",
+      "allowedProminentOccurrences": { "30": 2 },
+      "note": "Slide 1 headline and left pane label. A representative figure for a long-tail integration query; the post's own body gives the range as 10 to 50/mo. Appears twice by design (headline claim + pane label for the same number), hence a cap of 2."
+    },
+    {
+      "id": "high-volume-anchor",
+      "classification": "estimate",
+      "display": ["30,000"],
+      "source": "",
+      "allowedProminentOccurrences": { "30,000": 2 },
+      "note": "Slide 1 headline and right pane label. A stand-in for a head term, chosen as 1000x the other anchor to make the rhetorical point. Not a measured volume."
+    }
+  ]
+}

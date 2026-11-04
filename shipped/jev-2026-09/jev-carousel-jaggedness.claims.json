@@ -1,0 +1,41 @@
+{
+  "artifact": "jev-carousel-jaggedness",
+  "visibleSources": true,
+  "publicationBoundary": "The failure modes and the 1.19 example are the vendor's own published material. The benchmark critique is independent. Supports 'the vendor documents nine failure modes and its published evals measure agreement with two frontier models' and never a claim that the model is inaccurate.",
+  "sources": {
+    "typesafe-docs": "TypeSafe's own published documentation at docs.typesafe.ai. Vendor measured and vendor run, not independently verified.",
+    "eval-critique": "An independent critique of TypeSafe's published evaluations, which shows they score Jev against the average prediction of GPT-6 Astra and Fable 5.1 rather than against ground truth."
+  },
+  "claims": [
+    {
+      "id": "1-19",
+      "classification": "secondary",
+      "display": [
+        "1.19"
+      ],
+      "source": "typesafe-docs",
+      "allowedProminentOccurrences": {
+        "1.19": 1
+      },
+      "note": "Hero figure. The vendor's own example of a question and its negation summing above 1."
+    },
+    {
+      "id": "0-72",
+      "classification": "secondary",
+      "display": [
+        "0.72"
+      ],
+      "source": "typesafe-docs",
+      "note": "Noul for 'Is the customer asking for a refund?' on the ticket 'I was charged twice for the same order.' Verbatim from docs.typesafe.ai/model-jaggedness/jev-1.13, 'Common-sense structural invariants' table."
+    },
+    {
+      "id": "0-47",
+      "classification": "secondary",
+      "display": [
+        "0.47"
+      ],
+      "source": "typesafe-docs",
+      "note": "Noul for the negation 'Is the customer asking for something other than a refund?' on the same ticket. 0.72 + 0.47 = 1.19. Verbatim from docs.typesafe.ai/model-jaggedness/jev-1.13, 'Common-sense structural invariants' table."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "format": "card-before-after",
+  "theme": "dark",
+  "treatment": "brutalist",
+  "eyebrow": "AEO  \u00b7  BRAND TRUTH GAP  \u00b7  PIPELINE",
+  "before": {
+    "pill": "CHATGPT \u00b7 8 MONTHS AGO",
+    "subhead": "What the model still tells your buyer during pre-call research",
+    "steps": [
+      "The features you shipped",
+      "The integration that is live",
+      "The security gap you closed",
+      "Your current pricing",
+      "Anything past the cutoff"
+    ],
+    "caption": "Missing from the answer your prospect already read."
+  },
+  "after": {
+    "pill": "YOUR PRODUCT \u00b7 TODAY",
+    "hero": "Shipped. Live. *Fixed.*",
+    "steps": [
+      {
+        "label": "Three features this quarter",
+        "tag": "shipped"
+      },
+      {
+        "label": "Deal-breaker integration",
+        "tag": "live"
+      },
+      {
+        "label": "Security limitation closed",
+        "tag": "fixed"
+      },
+      {
+        "label": "Capabilities page, updated on ship",
+        "tag": "current"
+      }
+    ],
+    "caption": "This is not SEO. It is pipeline."
+  },
+  "gap_label": "BRAND TRUTH GAP"
+}

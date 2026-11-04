@@ -1,0 +1,41 @@
+{
+ "format": "card-before-after",
+ "theme": "dark",
+ "height": 1350,
+ "eyebrow": "GOOGLEBOT VS GOOGLE-AGENT",
+ "before": {
+  "pill": "LATE MOVERS",
+  "hero": "Can't separate Google-Agent from bot traffic",
+  "steps": [
+   "No agent-assisted conversions measured",
+   "WAF blocks hide in funnel drop-offs",
+   "No baseline before volume scales"
+  ],
+  "caption": "Late movers inherit noise"
+ },
+ "after": {
+  "pill": "EARLY MOVERS",
+  "hero": "*Baseline* clean",
+  "steps": [
+   {
+    "label": "Filter Google-Agent UA strings in logs",
+    "tag": "1"
+   },
+   {
+    "label": "Baseline the volume",
+    "tag": "2"
+   },
+   {
+    "label": "Validate key flows",
+    "tag": "3"
+   },
+   {
+    "label": "Update WAF/CDN rules",
+    "tag": "4"
+   }
+  ],
+  "caption": "Early movers baseline clean"
+ },
+ "closing": "RevOps teams need to start tracking Google-Agent.",
+ "hero_size": 56
+}

@@ -1,0 +1,73 @@
+{
+  "format": "carousel",
+  "layout": "carousel",
+  "theme": "dark",
+  "slides": [
+    {
+      "type": "title",
+      "headline": "Stop fixing mistakes. Fix the system.",
+      "subhead": "The process-debugging mindset"
+    },
+    {
+      "type": "statement",
+      "kicker": "The mistake",
+      "headline": "Most people debug the *OUTPUT*",
+      "body": "Something breaks → we patch the symptom."
+    },
+    {
+      "type": "statement",
+      "kicker": "The operator move",
+      "headline": "Operators debug the *PROCESS*",
+      "body": "Find what failed upstream, then redesign it."
+    },
+    {
+      "type": "list",
+      "headline": "Every failure is one of 3 layers",
+      "items": [
+        "Prompt",
+        "Skill",
+        "System design"
+      ],
+      "icon": "gears"
+    },
+    {
+      "type": "statement",
+      "kicker": "Question 1",
+      "headline": "1) What specifically broke?",
+      "body": "Describe the output. Not the feeling."
+    },
+    {
+      "type": "statement",
+      "kicker": "Question 2",
+      "headline": "2) Where did it break?",
+      "body": "Prompt vs skill gap vs workflow step."
+    },
+    {
+      "type": "statement",
+      "kicker": "Question 3",
+      "headline": "3) What makes this *IMPOSSIBLE* next time?",
+      "body": "Structural change beats another reminder."
+    },
+    {
+      "type": "split",
+      "headline": "Fixes scale differently",
+      "left": "Fix the error → it returns",
+      "right": "Fix the system → it disappears"
+    },
+    {
+      "type": "versus",
+      "left_title": "Manager",
+      "left": "Fixes the fire",
+      "left_icon": "fire",
+      "right_title": "*Operator*",
+      "right": "Redesigns the sprinkler system",
+      "right_icon": "sprinkler"
+    },
+    {
+      "type": "close",
+      "headline": "My job is to automate my job.",
+      "body": "Every recurring error is a system waiting to be fixed.",
+      "footer": "Your Name · Your Role"
+    }
+  ]
+}
